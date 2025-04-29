@@ -1,0 +1,1733 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Integrado de Diagnóstico e Tratamento MTC</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 20px; }
+        #search-container { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; }
+        #searchInput { width: 80%; padding: 8px; margin-right: 5px; }
+        #searchButton { padding: 8px 15px; }
+        #toc { border: 1px solid #eee; padding: 10px; margin-bottom: 20px; background-color: #fdfdfd; }
+        #toc ul { list-style: none; padding-left: 0; }
+        #toc li a { text-decoration: none; color: #0056b3; }
+        #toc li a:hover { text-decoration: underline; }
+        .section { margin-bottom: 30px; padding-top: 10px; border-top: 1px solid #eee; }
+        h2 { color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        h3 { color: #444; }
+        h4 { color: #555; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 15px; border: 1px solid #ddd; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; font-weight: bold; }
+        strong { font-weight: bold; }
+        em { font-style: italic; }
+        ul, ol { margin-left: 20px; }
+        p { margin-bottom: 10px; }
+        /* Highlight style is applied via JS */
+    </style>
+</head>
+<body>
+
+<h1>Sistema Integrado de Diagnóstico e Tratamento MTC</h1>
+
+<div id="search-container">
+    <input type="text" id="searchInput" placeholder="Pesquisar por sintoma, padrão, tratamento...">
+    <button id="searchButton" onclick="searchMTC()">Pesquisar</button>
+    <div id="searchResults"></div>
+</div>
+
+<div id="toc">
+<h2>Índice de Navegação</h2>
+<ul>
+<li><a href="#intro">Introdução e Estrutura</a></li>
+<li><a href="#categorias">Categorias de Problemas e Sintomas</a></li>
+<li><a href="#padroes">Padrões Fundamentais na MTC</a></li>
+<li><a href="#constituicao">Guia de Identificação Constitucional (5 Elementos)</a></li>
+<li><a href="#correlacoes">Diagnóstico: Correlações Sintomas-Padrões (Tabelas)</a></li>
+<li><a href="#integracao">Integração: Desarmonias Yin-Yang e Cinco Elementos</a></li>
+<li><a href="#trat_estrutura">Estrutura Geral dos Tratamentos</a></li>
+<li><a href="#trat_detalhado">Tratamentos Detalhados por Patologia/Padrão</a></li>
+</ul>
+
+</div>
+
+<div class="section" id="intro">
+<h2>Sistema de Matching para Diagnóstico em Medicina Tradicional Chinesa</h2>
+
+<h3>Estrutura do Sistema</h3>
+
+<p>Este sistema de matching foi desenvolvido para permitir um diagnóstico rápido e eficiente na Medicina Tradicional Chinesa, correlacionando conjuntos de sintomas com os desequilíbrios subjacentes. A estrutura do sistema é baseada em três componentes principais:</p>
+
+<ol>
+<li><strong>Categorias de Problemas</strong>: Organização dos sintomas por tipos específicos de problemas (pele, emocionais, insônias, dores musculares, etc.)</li>
+
+<li><strong>Padrões de Desequilíbrio</strong>: Identificação dos padrões de excesso ou deficiência nos sistemas corporais (Qi, Xue, Yin-Yang, Zang-Fu)</li>
+
+<li><strong>Fatores Causais</strong>: Análise dos fatores internos, externos e sazonais que contribuem para os desequilíbrios</li>
+
+<p>O sistema funciona como um mecanismo de correspondência (matching) que permite, a partir da identificação de um conjunto de sintomas, determinar rapidamente os desequilíbrios fundamentais presentes e suas interrelações.</p>
+
+<h3>Princípios de Funcionamento</h3>
+
+<li><strong>Identificação de Sintomas Principais</strong>: O diagnóstico começa com a identificação dos sintomas mais proeminentes apresentados pelo paciente.</li>
+
+<li><strong>Agrupamento por Categorias</strong>: Os sintomas são agrupados em categorias específicas para facilitar a análise.</li>
+
+<li><strong>Correlação com Padrões</strong>: Os conjuntos de sintomas são correlacionados com padrões específicos de desequilíbrio.</li>
+
+<li><strong>Análise de Interrelações</strong>: São identificadas as relações entre diferentes sintomas e como eles se influenciam mutuamente.</li>
+
+<li><strong>Determinação do Princípio Terapêutico</strong>: Com base no diagnóstico, é determinado o princípio terapêutico mais adequado.</li>
+
+<h3>Benefícios do Sistema</h3>
+
+<p>- <strong>Rapidez</strong>: Permite um diagnóstico eficiente, economizando tempo na prática clínica.</p>
+<p>- <strong>Precisão</strong>: Reduz a possibilidade de erro ao considerar múltiplos fatores simultaneamente.</p>
+<p>- <strong>Integração</strong>: Considera a interrelação entre diferentes sistemas corporais e sintomas.</p>
+<p>- <strong>Personalização</strong>: Adapta-se às necessidades específicas de cada paciente.</p>
+<p>- <strong>Facilidade de Uso</strong>: Estruturado de forma intuitiva para consulta rápida durante o atendimento.</li></p>
+</ol>
+
+</div><div class="section" id="categorias">
+<h2>Sistema de Matching: Categorias de Problemas e Sintomas Associados</h2>
+
+<p>Este documento detalha as categorias de problemas específicos mencionadas pelo usuário, juntamente com os sintomas associados a cada categoria, com base nos princípios da Medicina Tradicional Chinesa (MTC) extraídos dos materiais fornecidos.</p>
+
+<h3>1. Problemas de Pele (Geral)</h3>
+
+<p><strong>Descrição</strong>: Manifestações cutâneas diversas, refletindo desequilíbrios internos ou influências externas.</p>
+<p><strong>Sintomas Comuns</strong>:</p>
+<p>- Erupções cutâneas (vermelhas, pálidas, com ou sem prurido)</p>
+<p>- Prurido (comichão)</p>
+<p>- Pele seca, escamosa</p>
+<p>- Pele oleosa, acne</p>
+<p>- Eczema, dermatite</p>
+<p>- Urticária</p>
+<p>- Psoríase</p>
+<p>- Alterações na coloração da pele</p>
+<p><strong>Possíveis Desequilíbrios Associados</strong>: Calor no Sangue (Xue), Umidade-Calor, Vento (interno ou externo), Deficiência de Sangue (Xue) ou Yin, Estagnação de Qi e Sangue.</p>
+
+<h3>2. Problemas Emocionais</h3>
+
+<p><strong>Descrição</strong>: Desequilíbrios no estado mental e emocional, afetando o Shen (Mente/Espírito).</p>
+<p><strong>Sintomas Comuns</strong>:</p>
+<p>- Ansiedade, preocupação excessiva</p>
+<p>- Irritabilidade, raiva fácil</p>
+<p>- Tristeza, depressão, choro fácil</p>
+<p>- Medo, pânico</p>
+<p>- Alterações de humor</p>
+<p>- Pensamento obsessivo</p>
+<p>- Sensação de opressão no peito</p>
+<p>- Suspiros frequentes</p>
+<p><strong>Possíveis Desequilíbrios Associados</strong>: Estagnação de Qi do Fígado, Fogo no Fígado, Deficiência de Qi do Coração ou Baço, Deficiência de Sangue (Xue) do Coração ou Fígado, Calor no Coração, Desarmonia entre Coração e Rim.</p>
+
+<h3>3. Insônias (Vários Tipos)</h3>
+
+<p><strong>Descrição</strong>: Dificuldade em adormecer, manter o sono ou sono não reparador.</p>
+<p><strong>Sintomas Comuns</strong>:</p>
+<p>- Dificuldade em adormecer</p>
+<p>- Despertar frequente durante a noite</p>
+<p>- Despertar precoce</p>
+<p>- Sonhos excessivos ou perturbadores</p>
+<p>- Sono agitado</p>
+<p>- Sensação de cansaço ao acordar</p>
+<p><strong>Possíveis Desequilíbrios Associados</strong>: Deficiência de Sangue (Xue) do Coração/Baço, Deficiência de Yin do Coração/Rim (com Calor por Deficiência), Fogo no Fígado ou Coração, Estagnação de Qi do Fígado transformando-se em Calor, Retenção de Alimentos, Fleuma-Calor perturbando a Mente.</p>
+
+<h3>4. Dores Musculares e Articulares</h3>
+
+<p><strong>Descrição</strong>: Dor, rigidez ou desconforto no sistema musculoesquelético.</p>
+<p><strong>Subcategorias e Sintomas Comuns</strong>:</p>
+<p>- <strong>Dor Lombar</strong>: Dor aguda ou crônica, rigidez, fraqueza. (Associada a Deficiência do Rim, Estagnação de Qi/Sangue, Invasão de Frio/Umidade)</p>
+<p>- <strong>Dor Cervical</strong>: Dor, rigidez, tensão no pescoço. (Associada a Estagnação de Qi/Sangue, Invasão de Vento/Frio, Deficiência de Qi/Sangue)</p>
+<p>- <strong>Contraturas (Trapézio, Ombros)</strong>: Tensão muscular, dor, rigidez. (Associada a Estagnação de Qi do Fígado, Estresse, Invasão de Vento/Frio)</p>
+<p>- <strong>Tendinites/Tendinopatias</strong>: Dor localizada em tendões (ombro, cotovelo, punho, etc.), piora com movimento. (Associada a Estagnação de Qi/Sangue, Deficiência de Sangue do Fígado, Invasão de Frio/Umidade)</p>
+<p><strong>Possíveis Desequilíbrios Gerais Associados</strong>: Síndrome Bi (Obstrução Dolorosa) por Vento, Frio, Umidade ou Calor; Estagnação de Qi e Sangue (Xue); Deficiência de Qi e Sangue; Deficiência do Fígado (nutrição dos tendões) ou Rim (ossos e lombar).</p>
+
+<h3>5. Problemas de Visão/Oculares</h3>
+
+<p><strong>Descrição</strong>: Alterações na capacidade visual ou desconforto nos olhos.</p>
+<p><strong>Sintomas Comuns</strong>:</p>
+<p>- Visão turva ou embaçada</p>
+<p>- <strong>Astigmatismo, Miopia</strong>: Dificuldade em focar. (Frequentemente associados a Deficiência do Fígado ou Rim)</p>
+<p>- <strong>Cataratas</strong>: Opacidade do cristalino. (Associada a Deficiência de Yin do Fígado/Rim, Fleuma)</p>
+<p>- <strong>Glaucoma</strong>: Aumento da pressão intraocular. (Associado a Fogo no Fígado, Estagnação de Qi do Fígado)</p>
+<p>- <strong>Úlceras Oculares</strong>: Lesões na córnea. (Associadas a Calor Tóxico, Fogo no Fígado)</p>
+<p>- Olhos secos, irritados, vermelhos</p>
+<p>- Lacrimejamento excessivo</p>
+<p>- Sensibilidade à luz</p>
+<p><strong>Possíveis Desequilíbrios Associados</strong>: Deficiência de Sangue (Xue) do Fígado, Deficiência de Yin do Fígado/Rim, Fogo ou Vento-Calor no Fígado, Ascensão de Yang do Fígado.</p>
+
+<h3>6. Problemas Metabólicos</h3>
+
+<p><strong>Descrição</strong>: Desordens relacionadas ao metabolismo e processamento de substâncias no corpo.</p>
+<p><strong>Sintomas Comuns (Exemplo: Diabetes - Xiao Ke)</strong>:</p>
+<p>- Sede excessiva (polidipsia)</p>
+<p>- Fome excessiva (polifagia)</p>
+<p>- Urina excessiva (poliúria)</p>
+<p>- Perda de peso inexplicada</p>
+<p>- Fadiga</p>
+<p><strong>Possíveis Desequilíbrios Associados (Diabetes)</strong>: Calor no Pulmão, Calor no Estômago, Deficiência de Yin do Rim.</p>
+
+<h3>7. Problemas Digestivos</h3>
+
+<p><strong>Descrição</strong>: Desconforto ou disfunção no sistema digestivo.</p>
+<p><strong>Sintomas Comuns</strong>:</p>
+<p>- <strong>Distensão Abdominal</strong>: Sensação de inchaço ou plenitude. (Associada a Estagnação de Qi do Baço/Estômago, Retenção de Alimentos, Umidade)</p>
+<p>- Dor abdominal</p>
+<p>- Náuseas, vômitos</p>
+<p>- Alterações no apetite</p>
+<p>- Diarreia, obstipação</p>
+<p>- Arrotos, flatulência</p>
+<p><strong>Possíveis Desequilíbrios Associados</strong>: Deficiência de Qi do Baço, Umidade retida no Baço, Frio ou Calor no Estômago/Intestinos, Estagnação de Qi do Fígado invadindo o Baço/Estômago, Retenção de Alimentos.</p>
+
+<h3>8. Problemas Circulatórios/Linfáticos</h3>
+
+<p><strong>Descrição</strong>: Alterações no fluxo de Sangue (Xue) e Fluidos Corporais (Jin Ye).</p>
+<p><strong>Sintomas Comuns</strong>:</p>
+<p>- <strong>Dores nas Pernas, Membros Pesados</strong>: Sensação de peso, dor ou cansaço nos membros inferiores. (Associada a Deficiência de Qi do Baço, Umidade, Estagnação de Qi/Sangue)</p>
+<p>- <strong>Edemas</strong>: Inchaço por acúmulo de fluidos. (Associado a Deficiência de Yang do Rim/Baço, Obstrução de Qi)</p>
+<p>- <strong>Lipedema</strong>: Acúmulo de gordura e fluidos, geralmente nas pernas. (Pode envolver Deficiência do Baço, Umidade, Estagnação)</p>
+<p>- Varizes</p>
+<p>- Sensação de frio nas extremidades</p>
+<p><strong>Possíveis Desequilíbrios Associados</strong>: Deficiência de Qi ou Yang (Baço, Rim, Coração), Estagnação de Sangue (Xue), Acúmulo de Umidade ou Fleuma.</p>
+
+<h3>9. Problemas Respiratórios (Vias Aéreas Superiores)</h3>
+
+<p><strong>Descrição</strong>: Condições que afetam o nariz, seios paranasais e garganta.</p>
+<p><strong>Sintomas Comuns</strong>:</p>
+<p>- <strong>Rinite</strong>: Congestão nasal, coriza, espirros. (Associada a Invasão de Vento-Frio ou Vento-Calor, Deficiência de Qi do Pulmão, Alergias)</p>
+<p>- <strong>Sinusite</strong>: Dor facial, congestão, secreção nasal espessa. (Associada a Umidade-Calor no Pulmão/Vesícula Biliar, Vento-Calor)</p>
+<p>- Dor de garganta</p>
+<p>- Tosse</p>
+<p><strong>Possíveis Desequilíbrios Associados</strong>: Invasão de Fatores Patogênicos Externos (Vento, Frio, Calor, Sequeira), Deficiência de Qi Defensivo (Wei Qi), Deficiência de Qi do Pulmão, Umidade-Calor.</p>
+
+<h3>10. Doenças por Agentes Internos</h3>
+
+<p><strong>Descrição</strong>: Desequilíbrios originados pelas Sete Emoções (alegria, raiva, preocupação, pensamento excessivo, tristeza, medo, choque).</p>
+<p><strong>Sintomas</strong>: Variados, dependendo da emoção e do órgão afetado (ver Problemas Emocionais).</p>
+<p><strong>Mecanismo</strong>: Emoções excessivas ou prolongadas perturbam o fluxo de Qi e Sangue e afetam a função dos Zang Fu.</p>
+
+<h3>11. Doenças por Agentes Externos</h3>
+
+<p><strong>Descrição</strong>: Desequilíbrios causados pelos Seis Excessos Climáticos (Vento, Frio, Calor de Verão, Umidade, Sequeira, Fogo/Calor).</p>
+<p><strong>Sintomas</strong>: Variados, dependendo do fator patogênico e da parte do corpo afetada (febre, calafrios, dores, congestão, etc.).</p>
+<p><strong>Mecanismo</strong>: Fatores climáticos invadem o corpo quando o Qi Defensivo (Wei Qi) está fraco.</p>
+
+<h3>12. Doenças Sazonais</h3>
+
+<p><strong>Descrição</strong>: Condições que tendem a ocorrer ou piorar em determinadas estações do ano.</p>
+<p><strong>Exemplos</strong>:</p>
+<p>- <strong>Primavera</strong>: Alergias, irritabilidade (associadas ao Fígado e Vento).</p>
+<p>- <strong>Verão</strong>: Insolação, problemas digestivos (associados ao Coração e Calor/Umidade).</p>
+<p>- <strong>Outono</strong>: Problemas respiratórios, pele seca (associados ao Pulmão e Sequeira).</p>
+<p>- <strong>Inverno</strong>: Dores articulares, resfriados (associados ao Rim e Frio).</p>
+<p><strong>Mecanismo</strong>: Mudanças climáticas sazonais interagem com a constituição individual e os desequilíbrios existentes.</p>
+
+<h3>13. Doenças Relacionadas ao Desequilíbrio dos Cinco Elementos</h3>
+
+<p><strong>Descrição</strong>: Desordens decorrentes da desarmonia nos ciclos de Geração (Sheng) e Controle (Ke) entre os Cinco Elementos (Madeira, Fogo, Terra, Metal, Água) e seus órgãos correspondentes.</p>
+<p><strong>Exemplos</strong>:</p>
+<p>- Madeira (Fígado) atacando Terra (Baço/Estômago): Problemas digestivos induzidos por estresse.</p>
+<p>- Terra (Baço) gerando Metal (Pulmão) insuficientemente: Deficiência de Qi do Pulmão levando a problemas respiratórios.</p>
+<p>- Água (Rim) não controlando Fogo (Coração): Insônia, palpitações por deficiência de Yin do Rim.</p>
+<p><strong>Mecanismo</strong>: Desequilíbrio em um elemento/órgão afeta outros através dos ciclos de interação.</p>
+
+<p><em>(Nota: Esta lista é uma síntese baseada nos materiais fornecidos e nos princípios gerais da MTC. O diagnóstico preciso requer uma avaliação completa do paciente, incluindo os quatro métodos de diagnóstico.)</em></p>
+
+</div><div class="section" id="padroes">
+<h2>Padrões Fundamentais na Medicina Tradicional Chinesa</h2>
+
+<p>Este documento detalha os padrões fundamentais de desequilíbrio na Medicina Tradicional Chinesa, incluindo deficiências de Qi, Xue, fluidos, êxtase e outros, conforme solicitado. Estes padrões são essenciais para o sistema de matching entre sintomas e diagnósticos.</p>
+
+<h3>1. Desequilíbrios de Qi</h3>
+
+<h4>Deficiência de Qi (Qi Xu)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Fadiga, fraqueza, letargia</p>
+<p>- Voz fraca, fala com pouca energia</p>
+<p>- Respiração curta, especialmente ao esforço</p>
+<p>- Transpiração espontânea</p>
+<p>- Tendência a resfriados frequentes</p>
+<p>- Prolapsos (útero, estômago, reto)</p>
+<p>- Fezes moles ou diarreia</p>
+<p>- Língua: pálida, possivelmente inchada</p>
+<p>- Pulso: fraco, vazio (Xu)</p>
+
+<h4>Estagnação de Qi (Qi Zhi)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sensação de distensão, plenitude</p>
+<p>- Dor que melhora com pressão ou massagem</p>
+<p>- Dor que varia em localização e intensidade</p>
+<p>- Alterações de humor, irritabilidade</p>
+<p>- Suspiros frequentes</p>
+<p>- Sensação de nó na garganta (plum-pit)</p>
+<p>- Irregularidades menstruais</p>
+<p>- Língua: normal ou ligeiramente avermelhada nas laterais</p>
+<p>- Pulso: em corda (Xian), especialmente na posição esquerda média</p>
+
+<h4>Qi Rebelde (Qi Ni)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Movimento ascendente anormal do Qi</p>
+<p>- Náuseas, vômitos</p>
+<p>- Soluços, arrotos</p>
+<p>- Tosse</p>
+<p>- Asma</p>
+<p>- Língua: varia conforme a causa subjacente</p>
+<p>- Pulso: varia conforme a causa subjacente</p>
+
+<h4>Colapso de Qi (Qi Xian)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sudorese profusa, extremidades frias</p>
+<p>- Respiração superficial</p>
+<p>- Pulso fraco, quase imperceptível</p>
+<p>- Palidez extrema</p>
+<p>- Desmaio ou perda de consciência</p>
+<p>- Língua: pálida, úmida</p>
+<p>- Pulso: profundo, filiforme, fraco</p>
+
+<h3>2. Desequilíbrios de Xue (Sangue)</h3>
+
+<h4>Deficiência de Xue (Xue Xu)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Palidez (face, lábios, unhas)</p>
+<p>- Tontura, visão turva</p>
+<p>- Palpitações</p>
+<p>- Insônia, sono agitado</p>
+<p>- Formigamento nas extremidades</p>
+<p>- Menstruação escassa ou ausente</p>
+<p>- Pele e cabelos secos</p>
+<p>- Unhas quebradiças</p>
+<p>- Língua: pálida, fina</p>
+<p>- Pulso: fino (Xi), possivelmente irregular</p>
+
+<h4>Estagnação de Xue (Xue Yu)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Dor fixa, perfurante, que piora com pressão</p>
+<p>- Massas fixas, palpáveis</p>
+<p>- Equimoses, hematomas</p>
+<p>- Lábios ou língua roxos</p>
+<p>- Menstruação com coágulos escuros</p>
+<p>- Pele com coloração arroxeada</p>
+<p>- Língua: púrpura, com manchas roxas</p>
+<p>- Pulso: áspero (Se), irregular</p>
+
+<h4>Calor no Xue (Xue Re)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Erupções cutâneas vermelhas</p>
+<p>- Febre alta</p>
+<p>- Delírio</p>
+<p>- Hemorragias (epistaxe, hemoptise, melena)</p>
+<p>- Menstruação abundante, vermelho-vivo</p>
+<p>- Língua: vermelha com pontos ou manchas vermelhas</p>
+<p>- Pulso: rápido (Shuo), cheio (Shi)</p>
+
+<h3>3. Desequilíbrios de Jin Ye (Fluidos Corporais)</h3>
+
+<h4>Deficiência de Fluidos (Jin Ye Xu)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sede</p>
+<p>- Boca, garganta, nariz e pele secas</p>
+<p>- Constipação com fezes secas</p>
+<p>- Urina escassa e escura</p>
+<p>- Transpiração reduzida</p>
+<p>- Língua: seca, possivelmente com fissuras</p>
+<p>- Pulso: fino (Xi)</p>
+
+<h4>Retenção de Fluidos (Jin Ye Zhi)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Edema (generalizado ou localizado)</p>
+<p>- Sensação de peso</p>
+<p>- Náuseas, vômitos</p>
+<p>- Tosse com expectoração abundante</p>
+<p>- Vertigens</p>
+<p>- Língua: inchada com marca de dentes</p>
+<p>- Pulso: escorregadio (Hua)</p>
+
+<h3>4. Padrões de Fleuma (Tan)</h3>
+
+<h4>Fleuma-Umidade (Tan Shi)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sensação de peso, opressão no peito</p>
+<p>- Expectoração abundante, branca</p>
+<p>- Náuseas, vômitos</p>
+<p>- Tontura, cabeça pesada</p>
+<p>- Edema</p>
+<p>- Língua: inchada com saburra espessa e pegajosa</p>
+<p>- Pulso: escorregadio (Hua)</p>
+
+<h4>Fleuma-Calor (Tan Re)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Expectoração amarela ou esverdeada</p>
+<p>- Febre</p>
+<p>- Sede</p>
+<p>- Inquietação</p>
+<p>- Língua: vermelha com saburra amarela e pegajosa</p>
+<p>- Pulso: escorregadio (Hua) e rápido (Shuo)</p>
+
+<h4>Fleuma obstruindo os orifícios do Coração (Tan Meng Xin Qiao)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Confusão mental</p>
+<p>- Perda de consciência</p>
+<p>- Fala incoerente</p>
+<p>- Convulsões</p>
+<p>- Língua: inchada com saburra espessa</p>
+<p>- Pulso: escorregadio (Hua) ou em corda (Xian)</p>
+
+<h3>5. Desarmonias de Yin e Yang</h3>
+
+<h4>Deficiência de Yin (Yin Xu)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Calor nos "cinco corações" (palmas, plantas e centro do peito)</p>
+<p>- Febre baixa ou sensação de calor à tarde</p>
+<p>- Suores noturnos</p>
+<p>- Boca e garganta secas, especialmente à noite</p>
+<p>- Insônia, inquietação</p>
+<p>- Urina escassa e escura</p>
+<p>- Constipação</p>
+<p>- Língua: vermelha, pouca saburra, possivelmente fissuras</p>
+<p>- Pulso: fino (Xi) e rápido (Shuo)</p>
+
+<h4>Deficiência de Yang (Yang Xu)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sensação de frio, aversão ao frio</p>
+<p>- Extremidades frias</p>
+<p>- Palidez</p>
+<p>- Fadiga, letargia</p>
+<p>- Urina clara e abundante</p>
+<p>- Diarreia matinal</p>
+<p>- Edema, especialmente nos membros inferiores</p>
+<p>- Língua: pálida, inchada, úmida</p>
+<p>- Pulso: profundo (Chen), lento (Chi)</p>
+
+<h4>Colapso de Yin (Yin Jue)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Extremidades quentes</p>
+<p>- Sede intensa</p>
+<p>- Agitação extrema</p>
+<p>- Delírio</p>
+<p>- Língua: vermelha, seca</p>
+<p>- Pulso: filiforme, rápido</p>
+
+<h4>Colapso de Yang (Yang Jue)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Extremidades geladas</p>
+<p>- Sudorese fria e pegajosa</p>
+<p>- Respiração superficial</p>
+<p>- Face pálida ou azulada</p>
+<p>- Língua: pálida, úmida</p>
+<p>- Pulso: profundo, filiforme, quase imperceptível</p>
+
+<h3>6. Padrões de Calor e Frio</h3>
+
+<h4>Calor (Re)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Febre, sensação de calor</p>
+<p>- Sede com desejo de bebidas frias</p>
+<p>- Face vermelha</p>
+<p>- Agitação, inquietação</p>
+<p>- Urina escura e escassa</p>
+<p>- Constipação com fezes secas</p>
+<p>- Língua: vermelha com saburra amarela</p>
+<p>- Pulso: rápido (Shuo), cheio (Shi)</p>
+
+<h4>Frio (Han)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sensação de frio, aversão ao frio</p>
+<p>- Ausência de sede ou desejo por bebidas quentes</p>
+<p>- Face pálida</p>
+<p>- Extremidades frias</p>
+<p>- Urina clara e abundante</p>
+<p>- Diarreia ou fezes moles</p>
+<p>- Língua: pálida com saburra branca</p>
+<p>- Pulso: lento (Chi), tenso (Jin)</p>
+
+<h3>7. Padrões de Fatores Patogênicos Externos</h3>
+
+<h4>Vento Externo (Wai Feng)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Início súbito</p>
+<p>- Sintomas que mudam de localização</p>
+<p>- Febre, calafrios</p>
+<p>- Dor de cabeça, dor no corpo</p>
+<p>- Transpiração leve</p>
+<p>- Língua: saburra fina, branca</p>
+<p>- Pulso: flutuante (Fu)</p>
+
+<h4>Umidade Externa (Wai Shi)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sensação de peso, opressão</p>
+<p>- Edema</p>
+<p>- Sintomas persistentes</p>
+<p>- Náuseas</p>
+<p>- Fezes moles</p>
+<p>- Língua: saburra espessa, pegajosa</p>
+<p>- Pulso: escorregadio (Hua)</p>
+
+<h3>8. Identificação da Constituição dos Cinco Elementos</h3>
+
+<h4>Constituição Madeira (Fígado/Vesícula Biliar)</h4>
+<p><strong>Características Físicas</strong>:</p>
+<p>- Corpo alto, magro, tendões proeminentes</p>
+<p>- Rosto alongado, possivelmente esverdeado</p>
+<p>- Olhos penetrantes, possivelmente verdes</p>
+<p>- Unhas fortes</p>
+
+<p><strong>Características Comportamentais</strong>:</p>
+<p>- Decisivo, assertivo</p>
+<p>- Tendência à irritabilidade, impaciência</p>
+<p>- Boa capacidade de planejamento</p>
+<p>- Gosta de desafios, competitivo</p>
+<p>- Pode ser controlador</p>
+
+<p><strong>Vulnerabilidades</strong>:</p>
+<p>- Tendência a problemas de Fígado e Vesícula Biliar</p>
+<p>- Suscetível a enxaquecas, tendinites</p>
+<p>- Problemas oculares</p>
+<p>- Distúrbios emocionais relacionados à raiva</p>
+
+<h4>Constituição Fogo (Coração/Intestino Delgado)</h4>
+<p><strong>Características Físicas</strong>:</p>
+<p>- Movimentos rápidos, enérgicos</p>
+<p>- Face avermelhada, especialmente maçãs do rosto</p>
+<p>- Ponta do nariz vermelha</p>
+<p>- Tendência a transpirar facilmente</p>
+
+<p><strong>Características Comportamentais</strong>:</p>
+<p>- Comunicativo, falante</p>
+<p>- Entusiasta, apaixonado</p>
+<p>- Carismático, sociável</p>
+<p>- Riso fácil</p>
+<p>- Pode ser ansioso, agitado</p>
+
+<p><strong>Vulnerabilidades</strong>:</p>
+<p>- Tendência a problemas cardíacos</p>
+<p>- Suscetível a insônia, palpitações</p>
+<p>- Problemas circulatórios</p>
+<p>- Distúrbios emocionais relacionados à ansiedade</p>
+
+<h4>Constituição Terra (Baço/Estômago)</h4>
+<p><strong>Características Físicas</strong>:</p>
+<p>- Corpo robusto, musculatura desenvolvida</p>
+<p>- Face redonda, carnuda</p>
+<p>- Lábios cheios</p>
+<p>- Tendência a ganhar peso facilmente</p>
+
+<p><strong>Características Comportamentais</strong>:</p>
+<p>- Confiável, estável</p>
+<p>- Pensativo, reflexivo</p>
+<p>- Gosta de rotinas</p>
+<p>- Preocupado com os outros</p>
+<p>- Pode ser obsessivo, ruminativo</p>
+
+<p><strong>Vulnerabilidades</strong>:</p>
+<p>- Tendência a problemas digestivos</p>
+<p>- Suscetível a fadiga, letargia</p>
+<p>- Problemas metabólicos</p>
+<p>- Distúrbios emocionais relacionados à preocupação</p>
+
+<h4>Constituição Metal (Pulmão/Intestino Grosso)</h4>
+<p><strong>Características Físicas</strong>:</p>
+<p>- Ombros largos, postura ereta</p>
+<p>- Pele clara, delicada</p>
+<p>- Nariz bem definido</p>
+<p>- Voz clara, possivelmente metálica</p>
+
+<p><strong>Características Comportamentais</strong>:</p>
+<p>- Organizado, metódico</p>
+<p>- Preciso, detalhista</p>
+<p>- Valoriza qualidade e refinamento</p>
+<p>- Reservado, introspectivo</p>
+<p>- Pode ser perfeccionista, crítico</p>
+
+<p><strong>Vulnerabilidades</strong>:</p>
+<p>- Tendência a problemas respiratórios</p>
+<p>- Suscetível a alergias, asma</p>
+<p>- Problemas de pele</p>
+<p>- Distúrbios emocionais relacionados à tristeza</p>
+
+<h4>Constituição Água (Rim/Bexiga)</h4>
+<p><strong>Características Físicas</strong>:</p>
+<p>- Ossatura forte, possivelmente baixo</p>
+<p>- Face escura ou azulada</p>
+<p>- Olhos pequenos, brilhantes</p>
+<p>- Cabelos escuros, brilhantes</p>
+
+<p><strong>Características Comportamentais</strong>:</p>
+<p>- Determinado, persistente</p>
+<p>- Reservado, introspectivo</p>
+<p>- Boa memória, intuitivo</p>
+<p>- Capacidade de adaptação</p>
+<p>- Pode ser temeroso, inseguro</p>
+
+<p><strong>Vulnerabilidades</strong>:</p>
+<p>- Tendência a problemas renais e urinários</p>
+<p>- Suscetível a dores lombares, problemas ósseos</p>
+<p>- Problemas auditivos</p>
+<p>- Distúrbios emocionais relacionados ao medo</p>
+
+<h3>9. Desequilíbrios de Jing (Essência)</h3>
+
+<h4>Deficiência de Jing (Jing Xu)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Envelhecimento precoce</p>
+<p>- Perda de cabelo, cabelos grisalhos prematuros</p>
+<p>- Problemas ósseos (osteoporose)</p>
+<p>- Problemas dentários</p>
+<p>- Declínio da função reprodutiva</p>
+<p>- Desenvolvimento retardado em crianças</p>
+<p>- Memória fraca</p>
+<p>- Língua: pálida, fina</p>
+<p>- Pulso: profundo (Chen), fraco (Ruo)</p>
+
+<h3>10. Desequilíbrios de Shen (Mente/Espírito)</h3>
+
+<h4>Perturbação do Shen (Shen Shi)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Insônia, sono agitado</p>
+<p>- Sonhos excessivos</p>
+<p>- Ansiedade, agitação</p>
+<p>- Fala rápida, incoerente</p>
+<p>- Comportamento inapropriado</p>
+<p>- Língua: vermelha, especialmente na ponta</p>
+<p>- Pulso: rápido (Shuo), especialmente na posição esquerda frontal</p>
+
+<h4>Obstrução do Shen (Shen Meng)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Confusão mental</p>
+<p>- Perda de consciência</p>
+<p>- Fala arrastada</p>
+<p>- Letargia mental</p>
+<p>- Língua: varia conforme a causa subjacente</p>
+<p>- Pulso: varia conforme a causa subjacente</p>
+
+<h3>11. Desequilíbrios dos Meridianos</h3>
+
+<h4>Obstrução de Meridiano (Jing Luo Zu Zhi)</h4>
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Dor ao longo do trajeto do meridiano</p>
+<p>- Sensação de formigamento ou dormência</p>
+<p>- Alterações na temperatura local</p>
+<p>- Distúrbios funcionais relacionados aos órgãos associados</p>
+<p>- Pontos sensíveis ao longo do meridiano</p>
+<p>- Língua: varia conforme o meridiano afetado</p>
+<p>- Pulso: varia conforme o meridiano afetado</p>
+
+<p><em>(Nota: Este documento representa uma síntese dos padrões fundamentais na MTC, baseada nos materiais fornecidos. O diagnóstico preciso requer a integração destes padrões com os quatro métodos de diagnóstico e a consideração da constituição individual do paciente.)</em></p>
+
+</div><div class="section" id="constituicao">
+<h2>Guia de Identificação Constitucional na Medicina Tradicional Chinesa</h2>
+
+<p>Este guia detalhado foi desenvolvido para ajudar na identificação rápida e intuitiva da constituição dos Cinco Elementos de um paciente, conforme solicitado. A identificação constitucional é fundamental para um diagnóstico preciso e para o desenvolvimento de estratégias terapêuticas personalizadas.</p>
+
+<h3>Princípios da Identificação Constitucional</h3>
+
+<p>A constituição de uma pessoa na MTC reflete sua tendência natural para certos padrões de saúde e doença, baseada nos Cinco Elementos (Wu Xing). Cada pessoa tem uma predominância constitucional, embora possa apresentar características de múltiplos elementos.</p>
+
+<p>A identificação constitucional deve considerar:</p>
+<ol>
+<li>Características físicas inatas</li>
+<li>Tendências comportamentais e emocionais</li>
+<li>Vulnerabilidades a certos desequilíbrios</li>
+<li>Respostas a fatores ambientais e sazonais</li>
+
+<h3>Métodos de Avaliação Constitucional</h3>
+
+<h4>1. Observação (Wang)</h4>
+
+<h5>Aparência Geral</h5>
+<p>- <strong>Constituição Madeira</strong>: Corpo alto, magro, tendões proeminentes, movimentos decididos</p>
+<p>- <strong>Constituição Fogo</strong>: Movimentos rápidos, expressivos, postura animada</p>
+<p>- <strong>Constituição Terra</strong>: Corpo médio a robusto, movimentos estáveis, postura centrada</p>
+<p>- <strong>Constituição Metal</strong>: Ombros largos, postura ereta, movimentos precisos</p>
+<p>- <strong>Constituição Água</strong>: Ossatura forte, possivelmente baixo, movimentos fluidos</p>
+
+<h5>Face</h5>
+<p>- <strong>Constituição Madeira</strong>: Rosto alongado, possivelmente esverdeado, expressão intensa</p>
+<p>- <strong>Constituição Fogo</strong>: Face avermelhada, especialmente maçãs do rosto, expressão animada</p>
+<p>- <strong>Constituição Terra</strong>: Face redonda ou quadrada, amarelada, expressão acolhedora</p>
+<p>- <strong>Constituição Metal</strong>: Face oval, pálida ou branca, expressão séria</p>
+<p>- <strong>Constituição Água</strong>: Face escura ou azulada, expressão reservada</p>
+
+<h5>Olhos</h5>
+<p>- <strong>Constituição Madeira</strong>: Olhos penetrantes, possivelmente verdes, olhar decidido</p>
+<p>- <strong>Constituição Fogo</strong>: Olhos brilhantes, expressivos, olhar intenso</p>
+<p>- <strong>Constituição Terra</strong>: Olhos amáveis, olhar estável</p>
+<p>- <strong>Constituição Metal</strong>: Olhos claros, olhar preciso</p>
+<p>- <strong>Constituição Água</strong>: Olhos pequenos, brilhantes, olhar profundo</p>
+
+<h5>Outras Características Físicas</h5>
+<p>- <strong>Constituição Madeira</strong>: Unhas fortes, tendões visíveis, músculos definidos</p>
+<p>- <strong>Constituição Fogo</strong>: Ponta do nariz vermelha, transpira facilmente, pele quente ao toque</p>
+<p>- <strong>Constituição Terra</strong>: Lábios cheios, músculos desenvolvidos, abdômen proeminente</p>
+<p>- <strong>Constituição Metal</strong>: Pele clara e delicada, nariz bem definido, poros pequenos</p>
+<p>- <strong>Constituição Água</strong>: Cabelos escuros e brilhantes, ossos fortes, dentes proeminentes</p>
+
+<h4>2. Auscultação e Olfação (Wen)</h4>
+
+<h5>Voz</h5>
+<p>- <strong>Constituição Madeira</strong>: Voz alta, assertiva, tom comandante</p>
+<p>- <strong>Constituição Fogo</strong>: Voz animada, fala rápida, risos frequentes</p>
+<p>- <strong>Constituição Terra</strong>: Voz melodiosa, tom agradável, fala ponderada</p>
+<p>- <strong>Constituição Metal</strong>: Voz clara, precisa, possivelmente metálica</p>
+<p>- <strong>Constituição Água</strong>: Voz baixa, profunda, fala econômica</p>
+
+<h5>Odor Corporal (Sutil, em condições de desequilíbrio)</h5>
+<p>- <strong>Constituição Madeira</strong>: Odor ácido ou rançoso</p>
+<p>- <strong>Constituição Fogo</strong>: Odor queimado ou amargo</p>
+<p>- <strong>Constituição Terra</strong>: Odor adocicado ou fragante</p>
+<p>- <strong>Constituição Metal</strong>: Odor acre ou metálico</p>
+<p>- <strong>Constituição Água</strong>: Odor pútrido ou salgado</p>
+
+<h4>3. Interrogatório (Wen)</h4>
+
+<h5>Preferências Alimentares</h5>
+<p>- <strong>Constituição Madeira</strong>: Preferência por alimentos ácidos, aversão a gordurosos</p>
+<p>- <strong>Constituição Fogo</strong>: Preferência por alimentos amargos, aversão a picantes</p>
+<p>- <strong>Constituição Terra</strong>: Preferência por alimentos doces, aversão a ácidos</p>
+<p>- <strong>Constituição Metal</strong>: Preferência por alimentos picantes, aversão a amargos</p>
+<p>- <strong>Constituição Água</strong>: Preferência por alimentos salgados, aversão a doces</p>
+
+<h5>Respostas Emocionais Típicas</h5>
+<p>- <strong>Constituição Madeira</strong>: Tendência à irritabilidade, frustração, raiva</p>
+<p>- <strong>Constituição Fogo</strong>: Tendência à excitação, ansiedade, euforia</p>
+<p>- <strong>Constituição Terra</strong>: Tendência à preocupação, obsessão, ruminação</p>
+<p>- <strong>Constituição Metal</strong>: Tendência à tristeza, melancolia, introspecção</p>
+<p>- <strong>Constituição Água</strong>: Tendência ao medo, insegurança, apreensão</p>
+
+<h5>Comportamento Social</h5>
+<p>- <strong>Constituição Madeira</strong>: Assertivo, decisivo, possivelmente dominante</p>
+<p>- <strong>Constituição Fogo</strong>: Sociável, comunicativo, entusiasta</p>
+<p>- <strong>Constituição Terra</strong>: Acolhedor, mediador, conciliador</p>
+<p>- <strong>Constituição Metal</strong>: Reservado, organizado, metódico</p>
+<p>- <strong>Constituição Água</strong>: Introspectivo, observador, cauteloso</p>
+
+<h5>Respostas a Estresse</h5>
+<p>- <strong>Constituição Madeira</strong>: Irritabilidade, tensão muscular, dores de cabeça</p>
+<p>- <strong>Constituição Fogo</strong>: Ansiedade, insônia, palpitações</p>
+<p>- <strong>Constituição Terra</strong>: Preocupação excessiva, problemas digestivos</p>
+<p>- <strong>Constituição Metal</strong>: Tristeza, problemas respiratórios, retraimento</p>
+<p>- <strong>Constituição Água</strong>: Medo, problemas urinários, dores lombares</p>
+
+<h4>4. Palpação (Qie)</h4>
+
+<h5>Pulso Constitucional (Tendência Natural)</h5>
+<p>- <strong>Constituição Madeira</strong>: Pulso em corda (Xian), especialmente na posição esquerda média</p>
+<p>- <strong>Constituição Fogo</strong>: Pulso rápido (Shuo), especialmente na posição esquerda frontal</p>
+<p>- <strong>Constituição Terra</strong>: Pulso moderado (Huan), especialmente nas posições médias</p>
+<p>- <strong>Constituição Metal</strong>: Pulso superficial (Fu), especialmente na posição direita frontal</p>
+<p>- <strong>Constituição Água</strong>: Pulso profundo (Chen), especialmente na posição direita traseira</p>
+
+<h5>Temperatura Corporal</h5>
+<p>- <strong>Constituição Madeira</strong>: Temperatura normal a ligeiramente elevada</p>
+<p>- <strong>Constituição Fogo</strong>: Temperatura elevada, especialmente nas extremidades</p>
+<p>- <strong>Constituição Terra</strong>: Temperatura moderada, equilibrada</p>
+<p>- <strong>Constituição Metal</strong>: Temperatura ligeiramente baixa, pele fresca</p>
+<p>- <strong>Constituição Água</strong>: Temperatura baixa, especialmente nas extremidades</p>
+
+<h3>Indicadores Intuitivos para Identificação Rápida</h3>
+
+<h4>Sinais Visuais Imediatos</h4>
+<p>- <strong>Constituição Madeira</strong>: Postura ereta, olhar intenso, gestos decisivos</p>
+<p>- <strong>Constituição Fogo</strong>: Expressão animada, movimentos rápidos, presença carismática</p>
+<p>- <strong>Constituição Terra</strong>: Aparência acolhedora, movimentos estáveis, expressão amigável</p>
+<p>- <strong>Constituição Metal</strong>: Aparência organizada, movimentos precisos, expressão séria</p>
+<p>- <strong>Constituição Água</strong>: Aparência reservada, movimentos calmos, expressão profunda</p>
+
+<h4>Primeiras Impressões na Interação</h4>
+<p>- <strong>Constituição Madeira</strong>: Assertividade, objetividade, foco no propósito</p>
+<p>- <strong>Constituição Fogo</strong>: Entusiasmo, comunicação expressiva, conexão emocional</p>
+<p>- <strong>Constituição Terra</strong>: Empatia, atenção aos detalhes pessoais, abordagem cuidadosa</p>
+<p>- <strong>Constituição Metal</strong>: Formalidade, precisão, atenção aos detalhes técnicos</p>
+<p>- <strong>Constituição Água</strong>: Cautela, observação atenta, perguntas profundas</p>
+
+<h4>Linguagem Corporal</h4>
+<p>- <strong>Constituição Madeira</strong>: Gestos firmes, postura ereta, contato visual direto</p>
+<p>- <strong>Constituição Fogo</strong>: Gestos expressivos, postura aberta, sorriso frequente</p>
+<p>- <strong>Constituição Terra</strong>: Gestos acolhedores, postura relaxada, contato físico confortável</p>
+<p>- <strong>Constituição Metal</strong>: Gestos contidos, postura correta, distância pessoal mantida</p>
+<p>- <strong>Constituição Água</strong>: Gestos mínimos, postura reservada, observação cuidadosa</p>
+
+<h3>Correlações com Desequilíbrios Comuns</h3>
+
+<h4>Constituição Madeira</h4>
+<p>- <strong>Vulnerabilidades Físicas</strong>: Tendões, olhos, fígado, vesícula biliar</p>
+<p>- <strong>Desequilíbrios Típicos</strong>: Estagnação de Qi do Fígado, Ascensão de Yang do Fígado</p>
+<p>- <strong>Manifestações Comuns</strong>: Enxaquecas, irritabilidade, tensão muscular, problemas oculares</p>
+<p>- <strong>Fatores Agravantes</strong>: Estresse, frustração, primavera, vento</p>
+
+<h4>Constituição Fogo</h4>
+<p>- <strong>Vulnerabilidades Físicas</strong>: Coração, vasos sanguíneos, língua, face</p>
+<p>- <strong>Desequilíbrios Típicos</strong>: Calor no Coração, Deficiência de Yin do Coração</p>
+<p>- <strong>Manifestações Comuns</strong>: Ansiedade, insônia, palpitações, hipertensão</p>
+<p>- <strong>Fatores Agravantes</strong>: Excitação emocional, calor, verão, estímulos excessivos</p>
+
+<h4>Constituição Terra</h4>
+<p>- <strong>Vulnerabilidades Físicas</strong>: Sistema digestivo, músculos, boca, lábios</p>
+<p>- <strong>Desequilíbrios Típicos</strong>: Deficiência de Qi do Baço, Umidade</p>
+<p>- <strong>Manifestações Comuns</strong>: Problemas digestivos, fadiga, preocupação excessiva</p>
+<p>- <strong>Fatores Agravantes</strong>: Preocupação, umidade, final do verão, alimentação irregular</p>
+
+<h4>Constituição Metal</h4>
+<p>- <strong>Vulnerabilidades Físicas</strong>: Pulmões, pele, nariz, intestino grosso</p>
+<p>- <strong>Desequilíbrios Típicos</strong>: Deficiência de Qi do Pulmão, Secura no Pulmão</p>
+<p>- <strong>Manifestações Comuns</strong>: Problemas respiratórios, alergias, tristeza, pele seca</p>
+<p>- <strong>Fatores Agravantes</strong>: Tristeza, secura, outono, poluentes</p>
+
+<h4>Constituição Água</h4>
+<p>- <strong>Vulnerabilidades Físicas</strong>: Rins, ossos, ouvidos, sistema reprodutor</p>
+<p>- <strong>Desequilíbrios Típicos</strong>: Deficiência de Yin do Rim, Deficiência de Yang do Rim</p>
+<p>- <strong>Manifestações Comuns</strong>: Dores lombares, problemas urinários, medo, problemas auditivos</p>
+<p>- <strong>Fatores Agravantes</strong>: Medo, frio, inverno, excesso de trabalho</p>
+
+<h3>Aplicação Prática na Clínica</h3>
+
+<h4>Abordagem Rápida para Identificação</h4>
+<li><strong>Primeiro Contato</strong>: Observe a aparência geral, postura e movimentos</li>
+<li><strong>Durante a Anamnese</strong>: Note o tom de voz, padrão de fala e respostas emocionais</li>
+<li><strong>Exame Físico</strong>: Confirme com palpação do pulso e observação da língua</li>
+<li><strong>Integração</strong>: Combine todos os sinais para determinar a constituição predominante</li>
+
+<h4>Considerações Importantes</h4>
+<p>- A maioria das pessoas apresenta uma mistura de constituições, com uma ou duas predominantes</p>
+<p>- A constituição pode ser influenciada por fatores como idade, estilo de vida e condições crônicas</p>
+<p>- Desequilíbrios prolongados podem mascarar a constituição original</p>
+<p>- A identificação constitucional deve ser confirmada ao longo de múltiplas sessões</p>
+
+<h4>Benefícios da Identificação Constitucional Precisa</h4>
+<p>- Previsão de tendências a desequilíbrios específicos</p>
+<p>- Personalização do tratamento de acordo com a constituição</p>
+<p>- Orientações preventivas específicas</p>
+<p>- Melhor compreensão das interrelações entre diferentes sintomas</p>
+<p>- Abordagem mais holística e individualizada</p>
+
+<p><em>(Nota: Este guia foi desenvolvido para facilitar a identificação constitucional rápida e intuitiva na prática clínica, baseado nos princípios da Medicina Tradicional Chinesa e nos materiais fornecidos. A experiência clínica e a integração com outros métodos de diagnóstico são essenciais para uma identificação precisa.)</em></li></p>
+</ol>
+
+</div><div class="section" id="correlacoes">
+<h2>Sistema de Matching: Correlações entre Sintomas e Padrões (Versão Tabulada)</h2>
+
+<p>Este documento apresenta as correlações detalhadas entre sintomas/condições e padrões de desequilíbrio na Medicina Tradicional Chinesa (MTC), reorganizado em formato de tabelas para facilitar a consulta rápida.</p>
+
+<h3>Metodologia de Correlação</h3>
+
+<p>As correlações são baseadas na análise integrada dos materiais fornecidos e nos princípios diagnósticos da MTC. Para cada sintoma ou condição, são listados os padrões mais frequentemente associados. É crucial lembrar que um diagnóstico final requer a consideração do quadro completo do paciente.</p>
+
+<h3>1. Problemas de Pele</h3>
+
+<table>
+<thead>
+<tr><th>Sintomas/Manifestações</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>------------------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Erupções pálidas, prurido leve, pele seca</td><td>Deficiência de Sangue (Xue Xu) com Vento Seco</td><td>Piora com clima seco, língua pálida</td></tr>
+<tr><td>Erupções com vesículas, exsudato amarelado, prurido</td><td>Umidade-Calor</td><td>Sensação de peso, agravamento em clima úmido</td></tr>
+<tr><td>Erupções pálidas com edema, exsudato claro</td><td>Umidade-Frio, Deficiência de Yang do Baço</td><td>Piora com frio e umidade, melhora com calor</td></tr>
+<tr><td>Pele seca, escamosa, prurido leve</td><td>Deficiência de Sangue (Xue Xu), Deficiência de Yin</td><td>Piora à noite, língua sem saburra</td></tr>
+<tr><td>Acne (pústulas vermelhas, inflamadas)</td><td>Calor no Pulmão/Estômago, Umidade-Calor</td><td>Piora com alimentos picantes/gordurosos</td></tr>
+<tr><td>Acne (cistos, nódulos)</td><td>Fleuma-Calor, Estagnação de Sangue (Xue Yu)</td><td>Lesões profundas, dolorosas, recorrentes</td></tr>
+<tr><td>Eczema (vermelho, exsudativo)</td><td>Umidade-Calor, Vento-Calor</td><td>Piora com clima quente e úmido</td></tr>
+<tr><td>Eczema (seco, escamoso, crônico)</td><td>Deficiência de Sangue, Deficiência de Yin</td><td>Piora no inverno, pele ressecada geral</td></tr>
+<tr><td>Urticária (início súbito, migratória)</td><td>Vento (Externo ou Interno), Vento-Calor, Vento-Frio</td><td>Aparecimento e desaparecimento rápidos</td></tr>
+<tr><td>Psoríase</td><td>Calor no Sangue, Estagnação de Sangue, Deficiência de Yin</td><td>Placas bem delimitadas, escamosas</td></tr>
+</tbody>
+</table>
+
+<h3>2. Problemas Emocionais</h3>
+
+<table>
+<thead>
+<tr><th>Sintomas/Manifestações</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>------------------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Raiva explosiva, olhos vermelhos, dor de cabeça temporal</td><td>Fogo no Fígado (Gan Huo)</td><td>Face vermelha, gosto amargo, urina escura</td></tr>
+<tr><td>Ansiedade, palpitações, insônia (dificuldade em adormecer)</td><td>Deficiência de Sangue do Coração, Deficiência de Yin do Coração</td><td>Língua pálida ou vermelha sem saburra</td></tr>
+<tr><td>Preocupação excessiva, ruminação, fadiga, falta de apetite</td><td>Deficiência de Qi do Baço (Pi Qi Xu)</td><td>Fezes moles, membros pesados</td></tr>
+<tr><td>Tristeza, choro fácil, opressão no peito, voz fraca</td><td>Deficiência de Qi do Pulmão, Deficiência de Qi do Coração</td><td>Respiração curta, fadiga ao falar</td></tr>
+<tr><td>Medo, insegurança, dor lombar, zumbido</td><td>Deficiência de Qi/Yang/Yin do Rim (Shen Xu)</td><td>Urina frequente, joelhos fracos</td></tr>
+<tr><td>Pânico, palpitações intensas, sensação de morte iminente</td><td>Desarmonia Coração-Rim, Deficiência de Qi/Yang do Coração</td><td>Insônia, suor noturno, língua vermelha</td></tr>
+<tr><td>Pensamento obsessivo, preocupação constante</td><td>Deficiência de Qi do Baço, Estagnação de Qi</td><td>Distensão abdominal, apetite irregular</td></tr>
+<tr><td>Mudanças de humor drásticas</td><td>Estagnação de Qi do Fígado, Desarmonia Fígado-Baço</td><td>Alternância de irritabilidade e depressão</td></tr>
+</tbody>
+</table>
+
+<h3>3. Insônias</h3>
+
+<table>
+<thead>
+<tr><th>Tipo de Insônia</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>-----------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Dificuldade em adormecer, agitação mental, calor nos 5 corações</td><td>Deficiência de Yin do Coração/Rim (com Calor Vazio)</td><td>Suores noturnos, língua vermelha sem saburra</td></tr>
+<tr><td>Sono agitado com muitos sonhos, irritabilidade</td><td>Fogo no Fígado (Gan Huo), Estagnação de Qi do Fígado com Calor</td><td>Dor de cabeça temporal, olhos vermelhos</td></tr>
+<tr><td>Despertar frequente, sensação de plenitude abdominal</td><td>Retenção de Alimentos</td><td>Eructações, mau hálito, saburra espessa</td></tr>
+<tr><td>Despertar precoce, incapacidade de voltar a dormir</td><td>Deficiência de Qi da Vesícula Biliar</td><td>Timidez, indecisão, suspiros</td></tr>
+<tr><td>Sono com sensação de peso, tontura, expectoração</td><td>Fleuma-Calor perturbando a Mente</td><td>Sensação de opressão no peito, saburra amarela e gordurosa</td></tr>
+</tbody>
+</table>
+
+<h3>4. Dores Musculares e Articulares</h3>
+
+<table>
+<thead>
+<tr><th>Tipo de Dor</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>-------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Dor fixa e intensa nas articulações, piora com frio</td><td>Síndrome Bi por Frio</td><td>Melhora com calor, articulações frias ao toque</td></tr>
+<tr><td>Dor com sensação de peso e inchaço nas articulações</td><td>Síndrome Bi por Umidade</td><td>Piora com clima úmido, sensação de peso</td></tr>
+<tr><td>Dor com vermelhidão, calor e inchaço nas articulações</td><td>Síndrome Bi por Calor</td><td>Articulações quentes ao toque, febre</td></tr>
+<tr><td>Dor lombar crônica, fraqueza nos joelhos, piora com fadiga</td><td>Deficiência do Rim (Shen Xu - Yin, Yang ou Qi)</td><td>Zumbido, tontura, urina frequente</td></tr>
+<tr><td>Dor lombar aguda, rigidez, piora com frio/umidade</td><td>Invasão de Frio-Umidade nos Meridianos da Bexiga/Rim</td><td>Melhora com calor, piora com clima úmido</td></tr>
+<tr><td>Dor lombar aguda por trauma/esforço</td><td>Estagnação de Qi e Sangue (Qi Zhi Xue Yu)</td><td>Dor fixa, aguda, limitação de movimento</td></tr>
+<tr><td>Dor cervical com rigidez, tensão nos ombros/trapézios</td><td>Estagnação de Qi do Fígado (por estresse)</td><td>Piora com estresse, associada a insônia</td></tr>
+<tr><td>Tendinites (dor localizada, piora com movimento)</td><td>Estagnação de Qi e Sangue local, Deficiência de Sangue do Fígado</td><td>Rigidez, limitação de movimento</td></tr>
+</tbody>
+</table>
+
+<h3>5. Problemas de Visão/Oculares</h3>
+
+<table>
+<thead>
+<tr><th>Sintomas/Manifestações</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>------------------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Olhos vermelhos, doloridos, sensíveis à luz</td><td>Fogo no Fígado, Vento-Calor no Meridiano do Fígado</td><td>Dor de cabeça temporal, irritabilidade</td></tr>
+<tr><td>Olhos secos, visão noturna reduzida</td><td>Deficiência de Yin do Fígado/Rim</td><td>Tonturas, zumbido, lombalgia</td></tr>
+<tr><td>Lacrimejamento excessivo (especialmente ao vento)</td><td>Deficiência de Qi Defensivo (Wei Qi), Invasão de Vento</td><td>Sensibilidade ao vento, resfriados frequentes</td></tr>
+<tr><td>Cataratas (progressão lenta)</td><td>Deficiência de Yin do Fígado/Rim, Deficiência do Baço com Fleuma</td><td>Opacidade do cristalino, progressão gradual</td></tr>
+<tr><td>Glaucoma (pressão ocular elevada)</td><td>Fogo no Fígado, Ascensão de Yang do Fígado</td><td>Dor ocular, pressão elevada, dor de cabeça</td></tr>
+</tbody>
+</table>
+
+<h3>6. Problemas Metabólicos (Ex: Diabetes - Xiao Ke)</h3>
+
+<table>
+<thead>
+<tr><th>Sintomas/Manifestações</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>------------------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Fome excessiva, perda de peso (Xiao Ke Médio)</td><td>Calor no Estômago, Deficiência de Yin do Estômago</td><td>Halitose, gengivas inflamadas</td></tr>
+<tr><td>Urina excessiva, dor lombar (Xiao Ke Inferior)</td><td>Deficiência de Yin do Rim, Deficiência de Yang do Rim</td><td>Fadiga, zumbido, tontura</td></tr>
+</tbody>
+</table>
+
+<h3>7. Problemas Digestivos</h3>
+
+<table>
+<thead>
+<tr><th>Sintomas/Manifestações</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>------------------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Distensão abdominal com dor que alivia com arrotos/flatulência</td><td>Estagnação de Qi do Baço/Estômago</td><td>Eructações, flatulência, dor errática</td></tr>
+<tr><td>Distensão e dor abdominal, sensação de peso, náuseas</td><td>Retenção de Umidade no Baço/Estômago</td><td>Saburra gordurosa, sensação de peso</td></tr>
+<tr><td>Dor epigástrica em queimação, regurgitação ácida</td><td>Calor no Estômago</td><td>Sede, gengivas inflamadas, mau hálito</td></tr>
+<tr><td>Dor epigástrica surda, vômito de líquidos claros</td><td>Frio no Estômago</td><td>Melhora com calor, aversão a bebidas frias</td></tr>
+<tr><td>Dor nos flancos, distensão, alternância diarreia/obstipação</td><td>Estagnação de Qi do Fígado invadindo o Baço</td><td>Piora com estresse, irritabilidade</td></tr>
+<tr><td>Diarreia matinal, frio na lombar e abdômen</td><td>Deficiência de Yang do Rim e Baço</td><td>Fezes moles, indigestas, membros frios</td></tr>
+<tr><td>Obstipação com fezes secas</td><td>Sequeira nos Intestinos (Calor ou Deficiência de Sangue/Yin)</td><td>Fezes secas, difíceis de evacuar</td></tr>
+<tr><td>Obstipação com dificuldade na evacuação</td><td>Estagnação de Qi</td><td>Sensação de incompletude, distensão</td></tr>
+</tbody>
+</table>
+
+<h3>8. Problemas Circulatórios/Linfáticos</h3>
+
+<table>
+<thead>
+<tr><th>Sintomas/Manifestações</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>------------------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Edema nos tornozelos/pernas (piora com frio)</td><td>Deficiência de Yang do Rim</td><td>Dor lombar, aversão ao frio, urina clara</td></tr>
+<tr><td>Dor fixa nas pernas, varizes, pele escurecida</td><td>Estagnação de Sangue (Xue Yu)</td><td>Dor fixa, agravamento noturno</td></tr>
+<tr><td>Extremidades frias, palidez</td><td>Deficiência de Yang, Deficiência de Qi/Sangue</td><td>Fadiga, respiração curta, pulso fraco</td></tr>
+</tbody>
+</table>
+
+<h3>9. Problemas Respiratórios (Vias Aéreas Superiores)</h3>
+
+<table>
+<thead>
+<tr><th>Sintomas/Manifestações</th><th>Padrões de Desequilíbrio</th><th>Características Adicionais</th></tr>
+</thead>
+<tbody>
+<tr><td>------------------------</td><td>---------------------------</td><td>----------------------------</td></tr>
+<tr><td>Sinusite (secreção amarela/verde, dor facial)</td><td>Umidade-Calor no Pulmão/Vesícula Biliar</td><td>Sensação de peso na cabeça, febre baixa</td></tr>
+<tr><td>Congestão nasal crônica, perda de olfato</td><td>Estagnação de Qi e Sangue nos Canais Nasais, Fleuma-Umidade</td><td>Obstrução persistente, secreção espessa</td></tr>
+</tbody>
+</table>
+
+<h3>10. Doenças por Agentes Internos (Emoções)</h3>
+
+<table>
+<thead>
+<tr><th>Emoção</th><th>Padrões de Desequilíbrio</th><th>Manifestações Típicas</th></tr>
+</thead>
+<tbody>
+<tr><td>--------</td><td>---------------------------</td><td>------------------------</td></tr>
+<tr><td>Alegria excessiva/Choque</td><td>Perturbação do Shen, Deficiência de Qi do Coração</td><td>Palpitações, insônia, fala excessiva</td></tr>
+<tr><td>Preocupação/Pensamento excessivo</td><td>Deficiência de Qi do Baço, Deficiência de Sangue do Coração</td><td>Fadiga, apetite reduzido, ruminação mental</td></tr>
+<tr><td>Tristeza/Melancolia prolongada</td><td>Deficiência de Qi do Pulmão, Estagnação de Qi</td><td>Respiração curta, opressão no peito, choro fácil</td></tr>
+<tr><td>Medo/Susto prolongado</td><td>Deficiência de Qi/Essência do Rim, Descida do Qi</td><td>Micção frequente, lombalgia, insegurança</td></tr>
+</tbody>
+</table>
+
+<h3>11. Doenças por Agentes Externos (Clima)</h3>
+
+<table>
+<thead>
+<tr><th>Agente Externo</th><th>Sintomas Principais</th><th>Características Diagnósticas</th></tr>
+</thead>
+<tbody>
+<tr><td>----------------</td><td>---------------------</td><td>------------------------------</td></tr>
+<tr><td>Vento-Calor</td><td>Febre alta, aversão ao vento, dor de garganta</td><td>Coriza amarela, pulso rápido e superficial</td></tr>
+<tr><td>Umidade</td><td>Sensação de peso, edema, fezes moles</td><td>Secreções turvas, saburra gordurosa</td></tr>
+<tr><td>Sequeira</td><td>Pele seca, tosse seca, garganta seca</td><td>Constipação, sede, língua sem saburra</td></tr>
+<tr><td>Calor de Verão</td><td>Febre alta, sudorese profusa, sede</td><td>Fadiga extrema, urina escassa e escura</td></tr>
+<tr><td>Fogo/Calor Tóxico</td><td>Febre muito alta, delírio, erupções vermelhas</td><td>Abcessos, língua vermelha com saburra amarela seca</td></tr>
+</tbody>
+</table>
+
+<h3>12. Doenças Sazonais</h3>
+
+<table>
+<thead>
+<tr><th>Estação (Elemento)</th><th>Manifestações Comuns</th><th>Órgãos Afetados</th></tr>
+</thead>
+<tbody>
+<tr><td>--------------------</td><td>----------------------</td><td>-----------------</td></tr>
+<tr><td>Verão (Calor/Fogo)</td><td>Insolação, agitação, insônia</td><td>Coração, Intestino Delgado</td></tr>
+<tr><td>Final do Verão (Umidade/Terra)</td><td>Problemas digestivos, fadiga, sensação de peso</td><td>Baço, Estômago</td></tr>
+<tr><td>Outono (Sequeira/Metal)</td><td>Tosse seca, pele seca, problemas respiratórios</td><td>Pulmão, Intestino Grosso</td></tr>
+<tr><td>Inverno (Frio/Água)</td><td>Resfriados, dores articulares, fadiga</td><td>Rim, Bexiga</td></tr>
+</tbody>
+</table>
+
+<h3>13. Desequilíbrio dos Cinco Elementos</h3>
+
+<table>
+<thead>
+<tr><th>Interação</th><th>Manifestação</th><th>Impacto Clínico</th></tr>
+</thead>
+<tbody>
+<tr><td>-----------</td><td>--------------</td><td>-----------------</td></tr>
+<tr><td>Terra retém Água</td><td>Deficiência do Baço → Edema</td><td>Retenção de líquidos, Rim não excreta adequadamente</td></tr>
+<tr><td>Fogo insulta Metal</td><td>Calor do Coração → Seca o Pulmão</td><td>Tosse seca, inquietação, insônia</td></tr>
+<tr><td>Metal controla Madeira excessivamente</td><td>Pulmão restringe Fígado</td><td>Depressão, falta de assertividade, rigidez</td></tr>
+<tr><td>Água apaga Fogo</td><td>Deficiência do Rim → Deficiência do Coração</td><td>Palpitações, frio, ansiedade, insônia</td></tr>
+</tbody>
+</table>
+
+<h3>Tabela de Correlação: Sintomas Específicos e Padrões Múltiplos</h3>
+
+<table>
+<thead>
+<tr><th>Sintoma Principal</th><th>Padrões Primários</th><th>Padrões Secundários</th><th>Sintomas Associados</th></tr>
+</thead>
+<tbody>
+<tr><td>-------------------</td><td>-------------------</td><td>---------------------</td><td>---------------------</td></tr>
+<tr><td>Dor de cabeça temporal</td><td>Estagnação de Qi do Fígado, Ascensão de Yang do Fígado</td><td>Deficiência de Sangue do Fígado</td><td>Irritabilidade, olhos vermelhos, tensão muscular</td></tr>
+<tr><td>Dor de cabeça occipital</td><td>Deficiência de Rim, Invasão de Vento</td><td>Estagnação de Qi/Sangue</td><td>Tontura, visão turva, rigidez no pescoço</td></tr>
+<tr><td>Dor de cabeça no vértex</td><td>Deficiência de Sangue do Fígado, Ascensão de Yang do Fígado</td><td>Deficiência de Yin do Rim</td><td>Tontura, zumbido, visão turva</td></tr>
+<tr><td>Contratura nos ombros/trapézios</td><td>Estagnação de Qi do Fígado, Invasão de Vento-Frio</td><td>Deficiência de Sangue</td><td>Insônia, irritabilidade, estresse</td></tr>
+<tr><td>Lombalgia crônica</td><td>Deficiência de Rim (Yang/Yin/Jing), Umidade-Frio</td><td>Estagnação de Qi/Sangue</td><td>Joelhos fracos, urina frequente, fadiga</td></tr>
+<tr><td>Insônia com dificuldade para adormecer</td><td>Deficiência de Sangue do Coração, Fogo no Fígado</td><td>Desarmonia Coração-Rim</td><td>Palpitações, ansiedade, sonhos perturbadores</td></tr>
+<tr><td>Fadiga crônica</td><td>Deficiência de Qi do Baço/Pulmão, Deficiência de Yang do Rim</td><td>Umidade, Estagnação de Qi</td><td>Falta de apetite, respiração curta, membros frios</td></tr>
+<tr><td>Distensão abdominal</td><td>Estagnação de Qi do Fígado, Deficiência de Qi do Baço</td><td>Umidade, Retenção de Alimentos</td><td>Eructações, flatulência, alternância constipação/diarreia</td></tr>
+<tr><td>Palpitações</td><td>Deficiência de Qi/Yin do Coração, Deficiência de Sangue</td><td>Fleuma perturbando o Coração</td><td>Insônia, ansiedade, respiração curta</td></tr>
+</tbody>
+</table>
+
+<p><em>(Nota: Estas tabelas são guias iniciais. A complexidade da MTC reside na combinação de múltiplos padrões e na individualidade de cada paciente. Este documento serve como base para o sistema de matching, a ser refinado com mais dados e validação.)</em></p>
+
+</div><div class="section" id="integracao">
+<h2>Integração das Desarmonias de Yin-Yang e Cinco Elementos</h2>
+
+<p>Este documento integra as desarmonias fundamentais de Yin-Yang e dos Cinco Elementos no sistema de matching para diagnóstico, estabelecendo as relações entre estes conceitos teóricos e suas manifestações clínicas.</p>
+
+<h3>Desarmonias de Yin-Yang</h3>
+
+<p>O equilíbrio entre Yin e Yang é fundamental para a saúde. Seus desequilíbrios podem ser classificados em quatro padrões principais, cada um com manifestações clínicas específicas.</p>
+
+<h4>1. Deficiência de Yin (Yin Xu)</h4>
+
+<p><strong>Mecanismo</strong>: Consumo excessivo de substâncias Yin (fluidos, essências) ou incapacidade de produzir Yin suficiente.</p>
+
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Calor nos "cinco corações" (palmas, plantas e centro do peito)</p>
+<p>- Febre baixa ou sensação de calor à tarde/noite</p>
+<p>- Suores noturnos</p>
+<p>- Boca e garganta secas, especialmente à noite</p>
+<p>- Insônia, inquietação mental</p>
+<p>- Urina escassa e escura</p>
+<p>- Constipação com fezes secas</p>
+<p>- Menstruação escassa</p>
+<p>- Emissões noturnas (homens)</p>
+<p>- Língua: vermelha, pouca saburra, possivelmente fissuras</p>
+<p>- Pulso: fino (Xi) e rápido (Shuo)</p>
+
+<p><strong>Órgãos Comumente Afetados</strong>: Rim, Fígado, Coração, Pulmão</p>
+
+<p><strong>Condições Associadas</strong>:</p>
+<p>- Menopausa (deficiência de Yin do Rim)</p>
+<p>- Diabetes (Xiao Ke - deficiência de Yin)</p>
+<p>- Hipertireoidismo (deficiência de Yin com Calor Vazio)</p>
+<p>- Insônia crônica (deficiência de Yin do Coração)</p>
+<p>- Tuberculose crônica (deficiência de Yin do Pulmão)</p>
+
+<h4>2. Deficiência de Yang (Yang Xu)</h4>
+
+<p><strong>Mecanismo</strong>: Consumo excessivo de energia Yang ou incapacidade de produzir/manter Yang suficiente.</p>
+
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sensação de frio, aversão ao frio</p>
+<p>- Extremidades frias</p>
+<p>- Palidez</p>
+<p>- Fadiga, letargia</p>
+<p>- Urina clara e abundante</p>
+<p>- Diarreia matinal</p>
+<p>- Edema, especialmente nos membros inferiores</p>
+<p>- Diminuição da libido</p>
+<p>- Impotência (homens)</p>
+<p>- Língua: pálida, inchada, úmida</p>
+<p>- Pulso: profundo (Chen), lento (Chi)</p>
+
+<p><strong>Órgãos Comumente Afetados</strong>: Rim, Baço, Coração</p>
+
+<p><strong>Condições Associadas</strong>:</p>
+<p>- Hipotireoidismo (deficiência de Yang do Rim)</p>
+<p>- Insuficiência cardíaca (deficiência de Yang do Coração)</p>
+<p>- Diarreia crônica (deficiência de Yang do Baço)</p>
+<p>- Edema crônico (deficiência de Yang do Rim/Baço)</p>
+<p>- Infertilidade (deficiência de Yang do Rim)</p>
+
+<h4>3. Excesso de Yang (Yang Shi)</h4>
+
+<p><strong>Mecanismo</strong>: Hiperatividade do Yang, frequentemente por transformação de estagnação em Calor/Fogo.</p>
+
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Febre alta, sensação de calor</p>
+<p>- Face vermelha</p>
+<p>- Sede intensa</p>
+<p>- Irritabilidade, agitação</p>
+<p>- Dor intensa</p>
+<p>- Delírio em casos graves</p>
+<p>- Língua: vermelha com saburra amarela</p>
+<p>- Pulso: rápido (Shuo), cheio (Shi)</p>
+
+<p><strong>Órgãos Comumente Afetados</strong>: Fígado, Coração, Estômago</p>
+
+<p><strong>Condições Associadas</strong>:</p>
+<p>- Hipertensão (Fogo no Fígado, Ascensão de Yang do Fígado)</p>
+<p>- Infecções agudas (Calor/Fogo)</p>
+<p>- Hepatite aguda (Fogo no Fígado)</p>
+<p>- Gastrite aguda (Fogo no Estômago)</p>
+<p>- Mania (Fogo no Coração)</p>
+
+<h4>4. Excesso de Yin (Yin Shi)</h4>
+
+<p><strong>Mecanismo</strong>: Acúmulo de substâncias Yin como Umidade, Fleuma, Frio ou Estagnação.</p>
+
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Sensação de peso, opressão</p>
+<p>- Edema, inchaço</p>
+<p>- Secreções abundantes</p>
+<p>- Letargia, sonolência</p>
+<p>- Sensação de frio</p>
+<p>- Dor surda, persistente</p>
+<p>- Língua: pálida, inchada, saburra espessa</p>
+<p>- Pulso: lento (Chi), escorregadio (Hua)</p>
+
+<p><strong>Órgãos Comumente Afetados</strong>: Baço, Pulmão, Rim</p>
+
+<p><strong>Condições Associadas</strong>:</p>
+<p>- Obesidade (Umidade-Fleuma)</p>
+<p>- Edema (Umidade)</p>
+<p>- Bronquite crônica (Fleuma no Pulmão)</p>
+<p>- Hipotireoidismo (Frio no Rim)</p>
+<p>- Tumores (Estagnação de Qi/Sangue, Fleuma)</p>
+
+<h3>Interações Yin-Yang nos Órgãos (Zang-Fu)</h3>
+
+<h4>Desarmonia Coração-Rim</h4>
+
+<p><strong>Mecanismo</strong>: Deficiência de Yin do Rim não nutre o Yin do Coração, ou Fogo do Coração consome o Yin do Rim.</p>
+
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Insônia, sonhos excessivos</p>
+<p>- Palpitações</p>
+<p>- Ansiedade, agitação mental</p>
+<p>- Suores noturnos</p>
+<p>- Calor nos "cinco corações"</p>
+<p>- Zumbido</p>
+<p>- Dor lombar</p>
+<p>- Língua: vermelha, especialmente na ponta, pouca saburra</p>
+<p>- Pulso: fino (Xi), rápido (Shuo)</p>
+
+<p><strong>Condições Associadas</strong>:</p>
+<p>- Insônia crônica</p>
+<p>- Síndrome da menopausa</p>
+<p>- Hipertensão essencial</p>
+<p>- Ansiedade crônica</p>
+
+<h4>Desarmonia Fígado-Baço</h4>
+
+<p><strong>Mecanismo</strong>: Estagnação de Qi do Fígado invade o Baço, prejudicando sua função de transformação e transporte.</p>
+
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Distensão abdominal</p>
+<p>- Dor nos flancos</p>
+<p>- Alternância entre diarreia e constipação</p>
+<p>- Flatulência</p>
+<p>- Náuseas</p>
+<p>- Apetite irregular</p>
+<p>- Irritabilidade</p>
+<p>- Língua: ligeiramente vermelha nas laterais, saburra fina</p>
+<p>- Pulso: em corda (Xian), especialmente na posição esquerda média</p>
+
+<p><strong>Condições Associadas</strong>:</p>
+<p>- Síndrome do intestino irritável</p>
+<p>- Dispepsia funcional</p>
+<p>- Síndrome pré-menstrual</p>
+<p>- Estresse crônico com sintomas digestivos</p>
+
+<h4>Desarmonia Pulmão-Rim</h4>
+
+<p><strong>Mecanismo</strong>: Deficiência de Yin do Rim não nutre o Yin do Pulmão, ou deficiência de Yang do Rim não recebe o Qi do Pulmão.</p>
+
+<p><strong>Manifestações Clínicas</strong>:</p>
+<p>- Tosse crônica</p>
+<p>- Dispneia, especialmente ao esforço</p>
+<p>- Asma</p>
+<p>- Suores noturnos</p>
+<p>- Garganta seca</p>
+<p>- Dor lombar</p>
+<p>- Urina frequente</p>
+<p>- Língua: vermelha ou pálida (dependendo se predomina deficiência de Yin ou Yang)</p>
+<p>- Pulso: fino (Xi) ou profundo (Chen)</p>
+
+<p><strong>Condições Associadas</strong>:</p>
+<p>- Asma crônica</p>
+<p>- DPOC</p>
+<p>- Bronquite crônica</p>
+<p>- Enfisema</p>
+
+<h3>Desarmonias dos Cinco Elementos</h3>
+
+<p>Os Cinco Elementos (Wu Xing) - Madeira, Fogo, Terra, Metal e Água - interagem através dos ciclos de Geração (Sheng) e Controle (Ke). Desequilíbrios nestes ciclos resultam em padrões específicos de doença.</p>
+
+<h4>1. Ciclo de Geração (Sheng) Insuficiente</h4>
+
+<p>Quando um elemento não gera adequadamente o próximo elemento no ciclo.</p>
+
+<h5>Água não gera Madeira</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Rim não nutre o Fígado</p>
+<p>- Sintomas: tontura, visão turva, unhas quebradiças, tendões rígidos, irritabilidade</p>
+<p>- Condições: menopausa com sintomas hepáticos, osteoporose com rigidez</p>
+
+<h5>Madeira não gera Fogo</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Fígado não nutre o Coração</p>
+<p>- Sintomas: palpitações, insônia, ansiedade, deficiência de sangue</p>
+<p>- Condições: anemia com palpitações, distúrbios do sono</p>
+
+<h5>Fogo não gera Terra</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Coração não aquece o Baço</p>
+<p>- Sintomas: digestão fraca, fadiga, palpitações, ansiedade</p>
+<p>- Condições: anorexia, má absorção com ansiedade</p>
+
+<h5>Terra não gera Metal</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Baço não nutre o Pulmão</p>
+<p>- Sintomas: respiração curta, tosse fraca, fadiga, imunidade baixa</p>
+<p>- Condições: infecções respiratórias recorrentes, alergias</p>
+
+<h5>Metal não gera Água</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Pulmão não nutre o Rim</p>
+<p>- Sintomas: respiração curta, dor lombar, urina frequente</p>
+<p>- Condições: asma com sintomas renais, incontinência</p>
+
+<h4>2. Ciclo de Controle (Ke) Excessivo</h4>
+
+<p>Quando um elemento controla excessivamente outro elemento.</p>
+
+<h5>Madeira controla excessivamente Terra</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Hiperatividade do Fígado prejudica o Baço</p>
+<p>- Sintomas: distensão abdominal, diarreia, irritabilidade</p>
+<p>- Condições: síndrome do intestino irritável, colite nervosa</p>
+
+<h5>Fogo controla excessivamente Metal</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Calor do Coração resseca o Pulmão</p>
+<p>- Sintomas: tosse seca, insônia, palpitações, boca seca</p>
+<p>- Condições: bronquite seca com ansiedade, asma</p>
+
+<h5>Terra controla excessivamente Água</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Umidade do Baço sobrecarrega o Rim</p>
+<p>- Sintomas: edema, fadiga, dor lombar, digestão lenta</p>
+<p>- Condições: obesidade com problemas renais, edema</p>
+
+<h5>Água controla excessivamente Fogo</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Frio do Rim apaga o Fogo do Coração</p>
+<p>- Sintomas: palpitações, extremidades frias, ansiedade, fadiga</p>
+<p>- Condições: hipotireoidismo com ansiedade, impotência</p>
+
+<h5>Metal controla excessivamente Madeira</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Secura do Pulmão prejudica o Fígado</p>
+<p>- Sintomas: irritabilidade, olhos secos, tosse seca, tendões rígidos</p>
+<p>- Condições: síndrome do olho seco com tendinite</p>
+
+<h4>3. Ciclo de Controle (Ke) Insuficiente</h4>
+
+<p>Quando um elemento não controla adequadamente outro elemento.</p>
+
+<h5>Madeira não controla Terra</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Fígado permite acúmulo de Umidade no Baço</p>
+<p>- Sintomas: edema, distensão abdominal, fadiga</p>
+<p>- Condições: ascite, obesidade</p>
+
+<h5>Fogo não controla Metal</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Coração permite Frio no Pulmão</p>
+<p>- Sintomas: tosse com expectoração clara, palpitações, fadiga</p>
+<p>- Condições: bronquite crônica com palpitações</p>
+
+<h5>Terra não controla Água</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Baço permite acúmulo de Água no Rim</p>
+<p>- Sintomas: edema, especialmente nos membros inferiores, fadiga</p>
+<p>- Condições: edema renal, insuficiência renal</p>
+
+<h5>Água não controla Fogo</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Rim permite Calor no Coração</p>
+<p>- Sintomas: insônia, palpitações, suores noturnos, ansiedade</p>
+<p>- Condições: hipertensão, ansiedade crônica</p>
+
+<h5>Metal não controla Madeira</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Deficiência do Pulmão permite hiperatividade do Fígado</p>
+<p>- Sintomas: irritabilidade, respiração curta, dor nos flancos</p>
+<p>- Condições: asma com irritabilidade, hepatomegalia</p>
+
+<h4>4. Ciclo de Insulto (Wu)</h4>
+
+<p>Quando um elemento ataca anormalmente outro elemento, invertendo o ciclo de controle.</p>
+
+<h5>Terra insulta Madeira</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Umidade do Baço invade o Fígado</p>
+<p>- Sintomas: distensão abdominal, náuseas, icterícia</p>
+<p>- Condições: hepatite, cirrose</p>
+
+<h5>Madeira insulta Metal</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Fogo do Fígado invade o Pulmão</p>
+<p>- Sintomas: tosse seca, irritabilidade, hemoptise</p>
+<p>- Condições: pneumonia, tuberculose</p>
+
+<h5>Metal insulta Fogo</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Secura do Pulmão prejudica o Coração</p>
+<p>- Sintomas: palpitações, insônia, tosse seca</p>
+<p>- Condições: arritmias, ansiedade com tosse</p>
+
+<h5>Fogo insulta Água</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Calor do Coração desce para o Rim</p>
+<p>- Sintomas: urina escassa e escura, insônia, febre baixa</p>
+<p>- Condições: infecção urinária, insuficiência renal</p>
+
+<h5>Água insulta Terra</h5>
+<p><strong>Manifestações</strong>:</p>
+<p>- Frio do Rim invade o Baço</p>
+<p>- Sintomas: diarreia matinal, dor abdominal que melhora com calor</p>
+<p>- Condições: diarreia crônica, má absorção</p>
+
+<h3>Aplicação Clínica das Desarmonias Yin-Yang e Cinco Elementos</h3>
+
+<h4>Princípios de Diagnóstico Integrado</h4>
+
+<ol>
+<li><strong>Identificar o Desequilíbrio Yin-Yang Primário</strong>:</li>
+<p>- Determinar se há deficiência (Xu) ou excesso (Shi)</p>
+<p>- Avaliar se o desequilíbrio é de natureza Yin ou Yang</p>
+
+<li><strong>Localizar o Desequilíbrio nos Órgãos (Zang-Fu)</strong>:</li>
+<p>- Identificar quais órgãos estão primariamente afetados</p>
+<p>- Determinar as interrelações entre os órgãos afetados</p>
+
+<li><strong>Analisar as Interações dos Cinco Elementos</strong>:</li>
+<p>- Verificar se há desequilíbrios nos ciclos de Geração ou Controle</p>
+<p>- Identificar padrões de insulto entre elementos</p>
+
+<li><strong>Integrar com Outros Padrões</strong>:</li>
+<p>- Correlacionar com padrões de Qi, Xue, Jin Ye</p>
+<p>- Considerar fatores patogênicos internos e externos</p>
+
+<h4>Exemplos de Diagnóstico Integrado</h4>
+
+<h5>Exemplo 1: Insônia com Palpitações e Suores Noturnos</h5>
+<p>- <strong>Padrão Yin-Yang</strong>: Deficiência de Yin</p>
+<p>- <strong>Órgãos Afetados</strong>: Coração e Rim (Desarmonia Coração-Rim)</p>
+<p>- <strong>Cinco Elementos</strong>: Água não nutre Fogo (Ciclo de Geração insuficiente)</p>
+<p>- <strong>Tratamento Direcionado</strong>: Nutrir Yin do Rim e Coração, restaurar comunicação Água-Fogo</p>
+
+<h5>Exemplo 2: Dor Abdominal, Diarreia e Irritabilidade</h5>
+<p>- <strong>Padrão Yin-Yang</strong>: Excesso de Yang (Fígado) afetando Terra</p>
+<p>- <strong>Órgãos Afetados</strong>: Fígado e Baço (Desarmonia Fígado-Baço)</p>
+<p>- <strong>Cinco Elementos</strong>: Madeira controla excessivamente Terra (Ciclo de Controle excessivo)</p>
+<p>- <strong>Tratamento Direcionado</strong>: Suavizar Fígado, fortalecer Baço, harmonizar Madeira-Terra</p>
+
+<h5>Exemplo 3: Tosse Crônica com Dispneia e Dor Lombar</h5>
+<p>- <strong>Padrão Yin-Yang</strong>: Deficiência de Yin (Pulmão e Rim)</p>
+<p>- <strong>Órgãos Afetados</strong>: Pulmão e Rim (Desarmonia Pulmão-Rim)</p>
+<p>- <strong>Cinco Elementos</strong>: Metal não gera Água adequadamente (Ciclo de Geração insuficiente)</p>
+<p>- <strong>Tratamento Direcionado</strong>: Nutrir Yin do Pulmão e Rim, fortalecer conexão Metal-Água</p>
+
+<h4>Aplicação no Sistema de Matching</h4>
+
+<p>Este entendimento das desarmonias de Yin-Yang e Cinco Elementos permite uma camada mais profunda de análise no sistema de matching, conectando sintomas superficiais a desequilíbrios fundamentais:</p>
+
+<li><strong>Nível Sintomático</strong>: Identificação dos sintomas apresentados pelo paciente</li>
+<li><strong>Nível de Padrões</strong>: Correlação com padrões específicos de Qi, Xue, Jin Ye</li>
+<li><strong>Nível de Órgãos</strong>: Identificação dos Zang-Fu afetados</li>
+<li><strong>Nível Constitucional</strong>: Correlação com a constituição dos Cinco Elementos do paciente</li>
+<li><strong>Nível Fundamental</strong>: Análise das desarmonias Yin-Yang e interações dos Cinco Elementos</li>
+
+<p>Esta abordagem em camadas permite um diagnóstico mais preciso e um tratamento mais direcionado, considerando não apenas os sintomas superficiais, mas também os desequilíbrios fundamentais que os originam.</p>
+
+<p><em>(Nota: Este documento representa uma síntese das desarmonias de Yin-Yang e Cinco Elementos na MTC, baseada nos materiais fornecidos. A integração destes conceitos no sistema de matching permite uma compreensão mais profunda dos desequilíbrios subjacentes aos sintomas apresentados pelos pacientes.)</em></li></p>
+</ol>
+
+</div><div class="section" id="trat_estrutura">
+<h2>Estrutura de Tratamentos na Medicina Tradicional Chinesa</h2>
+
+<h3>Introdução aos Tratamentos na MTC</h3>
+
+<p>Baseado na análise dos materiais fornecidos, especialmente o livro "100 Doenças Tratadas Por Um Único Ponto de Acupuntura e Moxibustão" de Chen Decheng, estou desenvolvendo um sistema estruturado de tratamentos que complementará o sistema de diagnóstico já criado.</p>
+
+<p>Este documento apresenta a estrutura inicial para o sistema de tratamentos, que será posteriormente integrado ao sistema de diagnóstico em um HTML completo com funcionalidade de pesquisa.</p>
+
+<h3>Categorias de Tratamentos</h3>
+
+<p>Os tratamentos na MTC serão organizados nas seguintes categorias principais:</p>
+
+<ol>
+<li><strong>Doenças Dolorosas</strong></li>
+<p>- Cefaleia</p>
+<p>- Enxaqueca</p>
+<p>- Neuralgia Trigeminal</p>
+<p>- Dores musculares e articulares</p>
+<p>- Lombalgias</p>
+
+<li><strong>Doenças Cirúrgicas</strong></li>
+<p>- Colecistite Crônica</p>
+<p>- Apendicite</p>
+<p>- Vômitos Intestinais</p>
+<p>- Mastite Aguda</p>
+<p>- Hemorroidas</p>
+
+<li><strong>Doenças Obstétricas, Ginecológicas e Pediátricas</strong></li>
+<p>- Sangramento Uterino Disfuncional</p>
+<p>- Dismenorreia</p>
+<p>- Leucorreia</p>
+<p>- Esterilidade Primária</p>
+<p>- Problemas infantis (febre, diarreia, etc.)</p>
+
+<li><strong>Doenças Dermatológicas</strong></li>
+<p>- Problemas de pele</p>
+<p>- Eczema</p>
+<p>- Psoríase</p>
+<p>- Urticária</p>
+
+<li><strong>Doenças Respiratórias</strong></li>
+<p>- Rinite</p>
+<p>- Sinusite</p>
+<p>- Asma</p>
+<p>- Bronquite</p>
+
+<li><strong>Doenças Digestivas</strong></li>
+<p>- Distensão abdominal</p>
+<p>- Gastrite</p>
+<p>- Constipação</p>
+<p>- Diarreia</p>
+
+<li><strong>Doenças Emocionais e Mentais</strong></li>
+<p>- Ansiedade</p>
+<p>- Insônia</p>
+<p>- Depressão</p>
+<p>- Estresse</p>
+
+<li><strong>Doenças Oculares e Auditivas</strong></li>
+<p>- Problemas de visão</p>
+<p>- Glaucoma</p>
+<p>- Cataratas</p>
+<p>- Zumbido</p>
+<p>- Surdez</p>
+
+<h3>Métodos de Tratamento</h3>
+
+<p>Para cada condição, serão apresentados os seguintes métodos de tratamento:</p>
+
+<li><strong>Acupuntura</strong></li>
+<p>- Pontos principais</p>
+<p>- Pontos complementares</p>
+<p>- Técnicas de agulhamento</p>
+<p>- Duração e frequência do tratamento</p>
+
+<li><strong>Moxibustão</strong></li>
+<p>- Pontos indicados</p>
+<p>- Métodos de aplicação</p>
+<p>- Duração e frequência</p>
+
+<li><strong>Fitoterapia Chinesa</strong></li>
+<p>- Fórmulas clássicas</p>
+<p>- Ervas principais</p>
+<p>- Dosagem e preparação</p>
+<p>- Duração do tratamento</p>
+
+<li><strong>Tui Na (Massagem Chinesa)</strong></li>
+<p>- Técnicas específicas</p>
+<p>- Áreas de aplicação</p>
+<p>- Duração e frequência</p>
+
+<li><strong>Dietoterapia</strong></li>
+<p>- Alimentos recomendados</p>
+<p>- Alimentos a evitar</p>
+<p>- Receitas terapêuticas</p>
+
+<h3>Exemplo de Estrutura de Tratamento: Cefaleia</h3>
+
+<h4>Descrição</h4>
+<p>A cefaleia é um sintoma subjetivo que pode aparecer em muitas doenças. Na MTC, a cefaleia é descrita como dor que se refere aqui ao sintoma que é uma dor principal em qualquer parte da cabeça. Pode ser classificada em diferentes tipos conforme a localização, natureza da dor e fatores desencadeantes.</p>
+
+<h4>Diagnóstico na MTC</h4>
+<p>- <strong>Padrões de Excesso</strong>: Invasão de Vento-Frio, Vento-Calor, Fleuma, Estagnação de Qi do Fígado, Ascensão de Yang do Fígado</p>
+<p>- <strong>Padrões de Deficiência</strong>: Deficiência de Qi, Deficiência de Sangue, Deficiência de Yin</p>
+
+<h4>Tratamento por Acupuntura</h4>
+<p>- <strong>Ponto Principal</strong>: Fengchi (VB 20)</p>
+<p>- <strong>Localização</strong>: O ponto Fengchi (VB 20) está localizado na nuca, abaixo do osso occipital, entre as inserções dos músculos esternocleidomastóide e trapézio (Ver Fig. 1)</p>
+<p>- <strong>Método</strong>: Agulha com o paciente na posição sentada, use o polegar e dedo médio para segurar os dois lados ao redor do ponto Fengchi (VB 20) em ambos os lados, todos ao redor de Fengchi (VB 20) em ambos os lados. O procedimento deve ser feito por 10-15 minutos e se o repete diariamente uma vez.</p>
+<p>- <strong>Pontos Complementares</strong>:</p>
+<p>- Para cefaleia frontal: Yintang (Extra)</p>
+<p>- Para cefaleia temporal: Taiyang (Extra)</p>
+<p>- Para cefaleia occipital: Fengfu (VG 16)</p>
+<p>- Para cefaleia no vértex: Baihui (VG 20)</p>
+
+<h4>Tratamento por Moxibustão</h4>
+<p>- <strong>Pontos Indicados</strong>: Fengchi (VB 20), Baihui (VG 20)</p>
+<p>- <strong>Método</strong>: Moxibustão indireta com bastão de moxa por 10-15 minutos</p>
+
+<h4>Fitoterapia</h4>
+<p>- <strong>Para Cefaleia por Vento-Frio</strong>: Chuan Xiong Cha Tiao San</p>
+<p>- <strong>Para Cefaleia por Vento-Calor</strong>: Sang Ju Yin</p>
+<p>- <strong>Para Cefaleia por Estagnação de Qi do Fígado</strong>: Chai Hu Shu Gan San</p>
+<p>- <strong>Para Cefaleia por Deficiência de Sangue</strong>: Si Wu Tang</p>
+
+<h4>Tui Na</h4>
+<p>- Técnica de pressão nos pontos Fengchi (VB 20), Taiyang (Extra)</p>
+<p>- Massagem do couro cabeludo e pescoço</p>
+<p>- Duração: 15-20 minutos, 2-3 vezes por semana</p>
+
+<h4>Dietoterapia</h4>
+<p>- <strong>Alimentos Recomendados</strong>: Pera, maçã, arroz, trigo sarraceno</p>
+<p>- <strong>Alimentos a Evitar</strong>: Alimentos picantes, fritos, álcool, café</p>
+
+<h3>Próximos Passos</h3>
+
+<li>Desenvolver tratamentos detalhados para cada uma das condições listadas nas categorias</li>
+<li>Criar tabelas de correlação entre diagnósticos e tratamentos</li>
+<li>Integrar o sistema de tratamentos com o sistema de diagnóstico já desenvolvido</li>
+<li>Implementar a funcionalidade de pesquisa no HTML final</li>
+<li>Validar o sistema integrado de diagnóstico e tratamento</li>
+
+<p>Este documento serve como base para o desenvolvimento do sistema completo de tratamentos que será integrado ao sistema de diagnóstico existente, conforme solicitado pelo usuário.</li></p>
+</ol>
+
+</div><div class="section" id="trat_detalhado">
+<h2>Sistema Detalhado de Tratamentos por Patologia/Padrão na MTC</h2>
+
+<p>Este documento detalha os tratamentos para diversas patologias e padrões de desequilíbrio na Medicina Tradicional Chinesa (MTC), baseando-se na literatura fornecida e nos princípios clássicos. Segue a estrutura definida em `estrutura_tratamentos_mtc.md`.</p>
+
+<h3>1. Doenças Dolorosas</h3>
+
+<h4>1.1 Cefaleia</h4>
+
+<ul>
+<ol>
+<li>  <strong>Diagnóstico MTC</strong>: Vento-Frio, Vento-Calor, Fleuma, Estagnação de Qi do Fígado, Ascensão de Yang do Fígado, Deficiência de Qi/Sangue/Yin.</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Ponto Principal</strong>: Fengchi (VB 20) - Expulsa Vento, clareia a cabeça.</p>
+<p>*   <strong>Pontos Complementares</strong>:</p>
+<p>*   Frontal: Yintang (Extra), Zanzhu (B2), Hegu (IG4)</p>
+<p>*   Temporal: Taiyang (Extra), Shuaigu (VB8), Waiguan (TA5)</p>
+<p>*   Occipital: Fengfu (VG 16), Tianzhu (B10), Kunlun (B60)</p>
+<p>*   Vértex: Baihui (VG 20), Sishencong (Extra)</p>
+<p>*   Por Vento-Frio: Adicionar Fengmen (B12), Lieque (P7)</p>
+<p>*   Por Vento-Calor: Adicionar Quchi (IG11), Dazhui (VG14)</p>
+<p>*   Por Estagnação de Qi do Fígado: Adicionar Taichong (F3), Hegu (IG4)</p>
+<p>*   Por Ascensão de Yang do Fígado: Adicionar Taichong (F3), Xingjian (F2), Zusanli (E36)</p>
+<p>*   Por Deficiência de Sangue: Adicionar Xuehai (BP10), Zusanli (E36), Geshu (B17)</p>
+<p>*   Por Deficiência de Rim: Adicionar Shenshu (B23), Taixi (R3)</p>
+<p>*   <strong>Técnica</strong>: Dispersão para excesso, tonificação para deficiência. Agulhamento perpendicular ou oblíquo dependendo do ponto. Eletroacupuntura pode ser usada em VB20.</p>
+<li>  <strong>Moxibustão</strong>: Indicada para padrões de Frio ou Deficiência (VB20, VG20, B23). Evitar em padrões de Calor.</li>
+<li>  <strong>Fitoterapia</strong>:</li>
+<p>*   Vento-Frio: Chuan Xiong Cha Tiao San</p>
+<p>*   Vento-Calor: Sang Ju Yin ou Yin Qiao San</p>
+<p>*   Estagnação de Qi do Fígado: Chai Hu Shu Gan San</p>
+<p>*   Ascensão de Yang do Fígado: Tian Ma Gou Teng Yin</p>
+<p>*   Deficiência de Sangue: Si Wu Tang ou Ba Zhen Tang</p>
+<p>*   Deficiência de Rim: Zuo Gui Wan (Yin) ou You Gui Wan (Yang)</p>
+<li>  <strong>Tui Na</strong>: Pressão em VB20, Taiyang, Yintang. Massagem no pescoço e ombros.</li>
+<li>  <strong>Dietoterapia</strong>: Evitar álcool, café, alimentos picantes e gordurosos. Adaptar dieta ao padrão específico.</li>
+
+<h4>1.2 Enxaqueca (geralmente associada ao Fígado)</h4>
+
+<li>  <strong>Diagnóstico MTC</strong>: Ascensão de Yang do Fígado, Estagnação de Qi do Fígado, Deficiência de Sangue do Fígado.</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Pontos Principais</strong>: Taiyang (Extra), Shuaigu (VB8), Fengchi (VB20), Taichong (F3), Hegu (IG4).</p>
+<p>*   <strong>Pontos Complementares</strong>:</p>
+<p>*   Com náuseas/vômitos: Neiguan (PC6), Zusanli (E36)</p>
+<p>*   Com aura visual: Guangming (VB37)</p>
+<p>*   Relacionada à menstruação: Sanyinjiao (BP6)</p>
+<p>*   <strong>Técnica</strong>: Dispersão em F3, VB8, Taiyang. Tonificação ou método neutro nos outros.</p>
+<li>  <strong>Fitoterapia</strong>:</li>
+<p>*   Ascensão de Yang: Tian Ma Gou Teng Yin</p>
+<p>*   Estagnação de Qi: Xiao Yao San</p>
+<p>*   Deficiência de Sangue: Si Wu Tang</p>
+<li>  <strong>Dietoterapia</strong>: Evitar gatilhos como queijos curados, chocolate, vinho tinto. Manter horários regulares de sono e alimentação.</li>
+
+<h4>1.3 Dor Lombar (Lombalgia)</h4>
+
+<li>  <strong>Diagnóstico MTC</strong>: Deficiência do Rim (Yang, Yin, Qi), Invasão de Frio-Umidade, Estagnação de Qi e Sangue (aguda/traumática).</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Pontos Principais</strong>: Shenshu (B23), Dachangshu (B25), Yaoyangguan (VG3), Huantiao (VB30), Weizhong (B40), Kunlun (B60).</p>
+<p>*   <strong>Pontos Complementares</strong>:</p>
+<p>*   Deficiência do Rim: Adicionar Mingmen (VG4), Taixi (R3), Guanyuan (VC4)</p>
+<p>*   Frio-Umidade: Adicionar Yaoyan (Extra), Fengshi (VB31)</p>
+<p>*   Estagnação de Qi/Sangue: Adicionar Ashi points, Hegu (IG4), Taichong (F3)</p>
+<p>*   Dor ciática irradiada: Adicionar Zhibian (B54), Chengfu (B36), Yanglingquan (VB34)</p>
+<p>*   <strong>Técnica</strong>: Tonificação para deficiência (B23, R3, VG4). Dispersão para excesso (B40, Ashi). Moxa para Frio/Deficiência.</p>
+<li>  <strong>Moxibustão</strong>: Muito indicada para Deficiência de Yang do Rim e Frio-Umidade (B23, VG4, VC4).</li>
+<li>  <strong>Fitoterapia</strong>:</li>
+<p>*   Deficiência de Yang do Rim: You Gui Wan, Jin Gui Shen Qi Wan</p>
+<p>*   Deficiência de Yin do Rim: Zuo Gui Wan, Liu Wei Di Huang Wan</p>
+<p>*   Frio-Umidade: Du Huo Ji Sheng Tang</p>
+<p>*   Estagnação de Qi/Sangue: Shen Tong Zhu Yu Tang</p>
+<li>  <strong>Tui Na</strong>: Massagem na região lombar, pressão em B23, B25, B40.</li>
+<li>  <strong>Dietoterapia</strong>: Alimentos que tonificam o Rim (feijão preto, nozes, sementes de sésamo). Evitar excesso de alimentos frios e crus.</li>
+
+<h4>1.4 Dor Cervical e Contratura nos Ombros/Trapézios</h4>
+
+<li>  <strong>Diagnóstico MTC</strong>: Estagnação de Qi do Fígado (estresse), Invasão de Vento-Frio, Deficiência de Sangue.</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Pontos Principais</strong>: Fengchi (VB20), Jianjing (VB21), Tianzhu (B10), Dazhui (VG14), Hegu (IG4), Pontos Ashi.</p>
+<p>*   <strong>Pontos Complementares</strong>:</p>
+<p>*   Estagnação de Qi do Fígado: Adicionar Taichong (F3), Yanglingquan (VB34)</p>
+<p>*   Vento-Frio: Adicionar Fengmen (B12), Waiguan (TA5)</p>
+<p>*   Deficiência de Sangue: Adicionar Zusanli (E36), Sanyinjiao (BP6)</p>
+<p>*   Irradiação para o braço: Jianyu (IG15), Quchi (IG11), Shousanli (IG10)</p>
+<p>*   <strong>Técnica</strong>: Dispersão em VB21, Ashi points. Método neutro ou tonificação nos outros. Ventosaterapia pode ser útil.</p>
+<li>  <strong>Moxibustão</strong>: Indicada para padrões de Frio (VB21, VG14).</li>
+<li>  <strong>Fitoterapia</strong>:</li>
+<p>*   Estagnação de Qi: Xiao Yao San, Chai Hu Shu Gan San</p>
+<p>*   Vento-Frio: Ge Gen Tang</p>
+<li>  <strong>Tui Na</strong>: Massagem profunda nos músculos do pescoço, ombros e trapézios. Pressão em VB20, VB21.</li>
+<li>  <strong>Recomendações</strong>: Exercícios de alongamento, gestão do estresse.</li>
+
+<h3>2. Problemas Emocionais</h3>
+
+<h4>2.1 Ansiedade</h4>
+
+<li>  <strong>Diagnóstico MTC</strong>: Deficiência de Sangue do Coração, Deficiência de Yin do Coração/Rim, Estagnação de Qi do Fígado, Fleuma-Calor perturbando a Mente.</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Pontos Principais</strong>: Shenmen (C7), Neiguan (PC6), Yintang (Extra), Baihui (VG20).</p>
+<p>*   <strong>Pontos Complementares</strong>:</p>
+<p>*   Deficiência de Sangue/Yin: Adicionar Xinshu (B15), Sanyinjiao (BP6), Taixi (R3)</p>
+<p>*   Estagnação de Qi: Adicionar Taichong (F3), Qimen (F14)</p>
+<p>*   Fleuma-Calor: Adicionar Fenglong (E40), Zhongwan (VC12)</p>
+<p>*   <strong>Técnica</strong>: Método neutro ou tonificação. Auriculoterapia (Shenmen, Coração, Rim) é eficaz.</p>
+<li>  <strong>Fitoterapia</strong>:</li>
+<p>*   Deficiência de Sangue/Yin: Tian Wang Bu Xin Dan, Suan Zao Ren Tang</p>
+<p>*   Estagnação de Qi: Xiao Yao San</p>
+<p>*   Fleuma-Calor: Wen Dan Tang</p>
+<li>  <strong>Recomendações</strong>: Meditação, respiração profunda, exercício físico moderado.</li>
+
+<h4>2.2 Insônia (Ver também Seção 3 do Diagnóstico)</h4>
+
+<li>  <strong>Diagnóstico MTC</strong>: Deficiência de Sangue do Coração/Baço, Deficiência de Yin do Coração/Rim, Fogo no Fígado, Retenção de Alimentos, Deficiência de Qi da Vesícula Biliar, Fleuma-Calor.</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Pontos Principais</strong>: Shenmen (C7), Neiguan (PC6), Sanyinjiao (BP6), Anmian (Extra).</p>
+<p>*   <strong>Pontos Complementares</strong>: Conforme o padrão (ver Ansiedade e Cefaleia).</p>
+<p>*   Dificuldade em adormecer (Def. Sangue/Yin): Xinshu (B15), Pishu (B20), Zusanli (E36)</p>
+<p>*   Sono agitado (Fogo Fígado): Taichong (F3), Xingjian (F2), Ganshu (B18)</p>
+<p>*   Despertar precoce (Def. VB): Qihai (VC6), Zusanli (E36)</p>
+<li>  <strong>Fitoterapia</strong>: Suan Zao Ren Tang (Def. Sangue/Yin), Long Dan Xie Gan Tang (Fogo Fígado), Gui Pi Tang (Def. Coração/Baço).</li>
+<li>  <strong>Recomendações</strong>: Higiene do sono, evitar cafeína/álcool à noite, técnicas de relaxamento.</li>
+
+<h3>3. Problemas Digestivos</h3>
+
+<h4>3.1 Distensão Abdominal</h4>
+
+<li>  <strong>Diagnóstico MTC</strong>: Estagnação de Qi (Fígado/Baço/Estômago), Deficiência de Qi do Baço, Retenção de Umidade, Retenção de Alimentos.</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Pontos Principais</strong>: Zhongwan (VC12), Tianshu (E25), Zusanli (E36), Gongsun (BP4).</p>
+<p>*   <strong>Pontos Complementares</strong>:</p>
+<p>*   Estagnação de Qi: Adicionar Taichong (F3), Qimen (F14)</p>
+<p>*   Deficiência de Qi do Baço: Adicionar Pishu (B20), Qihai (VC6)</p>
+<p>*   Umidade: Adicionar Yinlingquan (BP9), Fenglong (E40)</p>
+<p>*   Retenção de Alimentos: Adicionar Neiting (E44), Xiawan (VC10)</p>
+<p>*   <strong>Técnica</strong>: Dispersão para excesso, tonificação para deficiência. Moxa para Deficiência/Frio.</p>
+<li>  <strong>Moxibustão</strong>: Indicada para Deficiência de Qi/Yang do Baço (VC12, E36, VC6).</li>
+<li>  <strong>Fitoterapia</strong>:</li>
+<p>*   Estagnação de Qi: Yue Ju Wan, Chai Hu Shu Gan San</p>
+<p>*   Deficiência de Qi do Baço: Si Jun Zi Tang, Shen Ling Bai Zhu San</p>
+<p>*   Umidade: Ping Wei San, Huo Xiang Zheng Qi San</p>
+<p>*   Retenção de Alimentos: Bao He Wan</p>
+<li>  <strong>Dietoterapia</strong>: Evitar alimentos que produzem gases (feijões, brócolis em excesso), comer devagar, mastigar bem. Gengibre e cardamomo podem ajudar.</li>
+
+<h3>4. Problemas de Pele (Exemplos)</h3>
+
+<h4>4.1 Eczema</h4>
+
+<li>  <strong>Diagnóstico MTC</strong>: Umidade-Calor, Vento-Calor (agudo); Deficiência de Sangue, Deficiência de Yin (crônico).</li>
+<li>  <strong>Acupuntura</strong>:</li>
+<p>*   <strong>Pontos Principais</strong>: Quchi (IG11), Xuehai (BP10), Sanyinjiao (BP6), Geshu (B17).</p>
+<p>*   <strong>Pontos Complementares</strong>:</p>
+<p>*   Umidade-Calor: Adicionar Yinlingquan (BP9), Weizhong (B40 - sangria)</p>
+<p>*   Vento-Calor: Adicionar Fengchi (VB20), Dazhui (VG14)</p>
+<p>*   Deficiência de Sangue/Yin: Adicionar Zusanli (E36), Taixi (R3)</p>
+<p>*   Pontos locais ao redor das lesões.</p>
+<p>*   <strong>Técnica</strong>: Dispersão para excesso, tonificação para deficiência. Sangria em B40 ou pontos locais para Calor/Umidade.</p>
+<li>  <strong>Fitoterapia</strong>:</li>
+<p>*   Umidade-Calor: Long Dan Xie Gan Tang (modificada)</p>
+<p>*   Vento-Calor: Xiao Feng San</p>
+<p>*   Deficiência de Sangue/Yin: Dang Gui Yin Zi</p>
+<li>  <strong>Recomendações</strong>: Evitar alimentos picantes, frutos do mar, álcool. Hidratar a pele (em casos secos).</li>
+
+<p><em>(Continua... Este documento será expandido para cobrir mais condições e detalhes de tratamento para cada categoria.)</em></li></li></p>
+</ol></ul>
+
+</div>
+
+<script src="search_script.js"></script>
+
+</body>
+</html>
